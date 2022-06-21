@@ -1,0 +1,66 @@
+.proxy-list {
+	li {
+		margin-bottom: .25em;
+
+		span {
+			display: inline-flex;
+			align-items: center;
+		}
+
+	$proxy-color-map: (
+			"black": #000000,
+			"blue": #0033cc,
+			"bronze": #cc9900,
+			"brown": #663300,
+			"gold": #cc9933,
+			"green": #009900,
+			"grey": #999999,
+			"orange": #ff6600,
+			"purple": #663399,
+			"red": #cc0000,
+			"yellow": #ffff00,
+			"silver": #cccccc,
+		);
+
+		// Generates classes for all the colors in the key
+		@each $key, $color in $proxy-color-map{
+			&.proxy-#{$key} span::before {
+				background-color: $color;
+			}
+		}
+		
+		// Generates the class for white (since it needs a border
+		&.proxy-white span::before {
+				background-color: #fff;
+				border: 1px solid #aeaeae;
+		}
+		
+		&.proxy-unknown::after {
+			position: absolute;
+			top: 7px;
+			right: 10px;
+		
+			color: #3c5866;
+			content: "?";
+		
+			font-family: "Open Sans", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+}
+
+.colour-group {
+	.proxy-list {
+		li {
+			span::before {
+				display: inline-block;
+				content: "";
+				width: 1em;
+				height: 1em;
+				border-radius: 50%;
+				margin-right: .25em;
+			}
+		}
+	}
+}

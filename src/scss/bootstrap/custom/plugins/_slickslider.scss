@@ -1,0 +1,50 @@
+/*
+// ## Carousel
+// --------------------------------------------------
+*/
+
+.slick,
+.slider {
+  &-slider {
+    @extend .carousel;
+    @extend .slide !optional;
+  }
+  &-item {
+    @extend .carousel-item;
+
+    .banner__content {
+      @extend .carousel-caption;
+    }
+  }
+  &-prev {
+    @extend .carousel-control-prev;
+  }
+  &-next {
+    @extend .carousel-control-next;
+  }
+  &-dots {
+    @extend .carousel-indicators;
+    li button {
+      @extend [data-bs-target];
+      font-size: 0;
+      line-height: 0;
+    }
+  }
+}
+
+.card-carousel {
+  .slick {
+    &-dots {
+      position: initial;
+    }
+    &-arrow {
+      width: max-content;
+    }
+    &-list {
+      margin: 0 2rem;
+    }
+    &-slide {
+      @extend .me-2;
+    }
+  }
+}

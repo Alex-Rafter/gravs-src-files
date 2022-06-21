@@ -1,0 +1,3 @@
+.list-view {
+	@include make-prefixed-grid-columns($prefix: 'list-');
+}

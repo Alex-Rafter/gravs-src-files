@@ -1,0 +1,15 @@
+.proxy-list {
+	padding: 0;
+	
+	li {
+		@extend .btn; 
+		@extend .btn-outline-primary;
+
+		display: inline-block;
+		margin-right: .3em;
+
+		&.selected {
+			@extend .active;
+		}
+	}
+}

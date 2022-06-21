@@ -1,0 +1,34 @@
+// Audi Brand Variables
+
+// Audi Brand Colours
+// 
+// The brand colours are equal in status and always appear in full tone. They may not be darkened, lightened or displayed transparently.
+$audi_progressive-red:#f50537;
+$audi_black:          #000;
+$audi_white:          #fff;
+
+// Functional Grey Tones
+// 
+// For functional applications, the colour palette can be extended to include grey tones ranging from white to black.
+$audi_grey-100:#f2f2f2;
+$audi_grey-200:#e5e5e5;
+$audi_grey-300:#ccc;
+$audi_grey-400:#999;
+$audi_grey-500:#808080;
+$audi_grey-600:#666;
+$audi_grey-700:#4c4c4c;
+$audi_grey-800:#333;
+$audi_grey-900:#1a1a1a;
+
+// Audi Signal Colours
+// 
+// The Audi Signal Colours are used solely for notifications, warnings and status messages if a colour differentiation is required. Red can be used in blocks, while yellow and green may only be used for typography and icons.
+$audi_green: #009900;
+$audi_yellow:#ffaa00;
+$audi_red:   #bb0a30;
+
+// Audi Charging Colours
+// 
+// The Audi charging colours are only used in the context of electric vehicles – either as part of a user interface or to indicate active charging processes. The charging colours may only be applied selectively and sparingly.
+$audi_neon-blue: #2562FE;
+$audi_neon-green:#15DA15;

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'uknumberplate';
+  src:  url('UKNumberPlate-webfont.eot');
+  src:  url('UKNumberPlate-webfont.ttf') format('truetype'),
+    url('UKNumberPlate-webfont.woff') format('woff'),
+    url('UKNumberPlate-webfont.woff2') format('woff2'),
+    url('UKNumberPlate-webfont.svg?w9nu0g#uknumberplateregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

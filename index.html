@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+    <script src="https://unpkg.com/petite-vue" defer init></script>
+</head>
+<body>
+    <header class="shadow-sm header header_theme_default mb-0" id="groupHeader">
+        <div class="navbar navbar-light navbar--header-main">
+            <div class="container-fluid px-0 justify-content-xl-start">
+                <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
+                    aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger hamburger--3dx">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+                <a class="navbar__logo" href="/"><img class="navbar__logo-img"
+                        src="http://gravells.vm.live1.cogplatform.co.uk/img/logos/gravells-logo.png"
+                        alt="Gravells Logo"></a>
+                <nav class="collapse navbar-collapse order-xl-1" id="navBar">
+    
+                </nav>
+                <div class="navbar__end-item g-reviews ms-xl-auto">
+                    <a href="/" class="h-100 w-100 flex-c">
+                        <i class="fa-thin fa-location-pin"></i>
+                    </a>
+                </div>
+                <div class="navbar__end-item location bg-light">
+                    <a href="/" class="h-100 w-100 flex-c">
+                        <i class="fa-thin fa-location-pin"></i>
+                    </a>
+                </div>
+                <div class="navbar__end-item phone-us bg-primary">
+                    <a href="/" class="h-100 w-100 flex-c">
+                        <i class="fa-thin fa-phone text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="fat-nav">
+        <nav class="fat-nav__wrapper">
+            <ul class="main-nav">
+    
+                <li class="expand">
+    
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/our-brands/">Our Brands</a><i class="fa-thin fa-caret-down d-xl-none"></i></span>
+    
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    Go To Aston Martin <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Go To Audi <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Go To Bentley <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/ineos/new-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/ineos.png"
+                                        width="150px" alt="INEOS Logo"><br>
+                                    Go To INEOS <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Go To Jaguar <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    Go To Land Rover <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    Go To McLaren <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Go To Volvo <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bmw/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bmw.png"
+                                        width="150px" alt="BMW Logo"><br>
+                                    Go To BMW Aftersales <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mini/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mini.png"
+                                        width="150px" alt="Mini Logo"><br>
+                                    Go To Mini Aftersales <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/man-trucks/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/man.png"
+                                        width="150px" alt="Man Trucks Logo"><br>
+                                    Go To Harwoods Truck Centre <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </li>
+    
+    
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/new-cars/">New Cars</a><i class="fa-thin fa-caret-down d-xl-none"></i></span>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/new-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    View The Aston Martin Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/new-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    View The Audi Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/new-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    View The Bentley Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/new-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    View The Jaguar Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/new-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    View The Land Rover Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/new-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    View The McLaren Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/new-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    View The Volvo Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/new-make-available-now/"><span class="icon icon-car1"></span><br>
+                                    New Available Now <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/used-cars/">Used Cars</a><i class="fa-thin fa-caret-down d-xl-none"></i></span>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    Used Aston Martin<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Used Audi<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Used Bentley <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Used Jaguar<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    Used Land Rover<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/used-cars/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    Used McLaren <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/used-cars/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Used Volvo <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+                            <div class="clearfix"></div>
+                            <li class="col-sm-3 col-6">
+                                <a href="/used-cars/advantage-cars/"><span class="icon icon-tags"></span><br>
+                                    Used Advantage Cars <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/valuation/"><span class="icon icon-pound-sign2"></span><br>
+                                    Value Your Car<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <!--<li class="col-sm-3 col-6">
+          <a href="/managers-specials/" class="managers-specials"><img src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/managers-specials.png" width="150px" alt="Managers Special"><br>
+          Managers Specials <i class="icon icon-angle-double-right"></i></a>
+        </li>-->
+                            <li class="col-sm-3 col-6">
+                                <a href="/used-cars/compare/"><span class="icon icon-car1"></span><br>
+                                    Compare your Favourites <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/offers/">Offers</a><i class="fa-thin fa-caret-down d-xl-none"></i></span>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    View Aston Martin Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    View Audi Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    View Bentley Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    View Jaguar Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    View Land Rover Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/offers/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    View McLaren Offers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/offers/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    View The Volvo Range <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+    
+                        </ul>
+                    </div>
+                </li>
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/service-and-repairs/">Service &amp; Repairs</a></span><i
+                        class="fa-thin fa-caret-down d-xl-none"></i>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/service-and-repairs/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bmw/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bmw.png"
+                                        width="150px" alt="BMW Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mini/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mini.png"
+                                        width="150px" alt="Mini Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/man-trucks/service-and-repairs/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/man.png"
+                                        width="150px" alt="Man Trucks Logo"><br>
+                                    Service &amp; Repairs <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/accident-repair-centres/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/repair-restore.png"
+                                        alt="Accident Repair Centres"><br>
+                                    Accident Repair Centres <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/harwoods-accident-assistance/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/repair-restore.png"
+                                        alt="Accident Assistance"><br>
+                                    Accident Assistance<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/parts-and-accessories/">Parts &amp; Accessories</a></span><i
+                        class="fa-thin fa-caret-down d-xl-none"></i>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/parts-and-accessories/" target="_blank"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/parts-and-accessories/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/man-trucks/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/man.png"
+                                        width="150px" alt="Man Trucks Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bmw/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bmw.png"
+                                        width="150px" alt="BMW Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mini/parts-and-accessories/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mini.png"
+                                        width="150px" alt="MINI Logo"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/tps.aspx"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/tps.png"
+                                        width="150px" alt="Tps"><br>
+                                    Parts &amp; Accessories <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </li>
+    
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/business-users/">Business Users</a></span><i
+                        class="fa-thin fa-caret-down d-xl-none"></i>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/business-users/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Audi Business <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/business-users/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Bentley Business <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/business-users/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Jaguar Business <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/business-users/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Land Rover Business <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/business-users/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Volvo Business <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="expand">
+                    <span class="top-level ps-0 flex-c d-xl-block justify-content-between px-5 px-xl-0 w-100"><a href="/our-locations/">Contact Us</a></span><i
+                        class="fa-thin fa-caret-down d-xl-none"></i>
+                    <div class="expand-content">
+                        <ul class="row mgn-bottom-30">
+                            <li class="col-sm-3 col-6">
+                                <a href="/aston-martin/locations/4769/aston-martin-chichester/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/aston-martin.png"
+                                        width="150px" alt="Aston Martin Logo"><br>
+                                    Contact Aston Martin <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/audi/our-locations/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/audi.png"
+                                        width="150px" alt="Audi Logo"><br>
+                                    Contact Audi<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bentley/our-locations/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bentley.png"
+                                        width="150px" alt="Bentley Logo"><br>
+                                    Contact Bentley<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/jaguar/our-locations/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/jaguar.png"
+                                        width="150px" alt="Jaguar Logo"><br>
+                                    Contact Jaguar<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/landrover/our-locations/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/landrover.png"
+                                        width="150px" alt="Land Rover Logo"><br>
+                                    Contact Land Rover<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mclaren/locations/5631/mclaren-new-forest/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mclaren.png"
+                                        width="150px" alt="McLaren Logo"><br>
+                                    Contact McLaren<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/volvo/our-locations/"> <img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/volvo.png"
+                                        width="150px" alt="Volvo Logo"><br>
+                                    Contact Volvo <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/bmw/contact-us/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/bmw.png"
+                                        width="150px" alt="BMW Logo"><br>
+                                    Contact BMW Aftersales<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/mini/contact-us/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/mini.png"
+                                        width="150px" alt="Mini Logo"><br>
+                                    Contact Mini Aftersales<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/man-trucks/contact-us/"><img
+                                        src="https://bluesky.sirv.com/Websites/Harwoods/Images/Navigation/man.png"
+                                        width="150px" alt="Man Trucks Logo"><br>
+                                    Contact Man Truck Centre<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/about-us/"><span class="icon icon-user"></span><br>
+                                    About Us <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/about-us/our-heritage/"><span class="icon icon-history2"></span><br>
+                                    Our Heritage <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <div class="clearfix"></div>
+                            <li class="col-sm-3 col-6">
+                                <a href="/about-us/directors/"><span class="icon icon-users"></span><br>
+                                    Directors <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="//our-locations/"><span class="icon icon-map-marker"></span><br>
+                                    Find a dealer<i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/about-us/news-and-events/"><span class="icon icon-newspaper"></span><br>
+                                    Latest News &amp; Events <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/about-us/careers/"><span class="icon icon-briefcase"></span><br>
+                                    Careers <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+                            <li class="col-sm-3 col-6">
+                                <a href="/feedback/"><span class="icon icon-edit2"></span><br>
+                                    Feedback <i class="icon icon-angle-double-right"></i></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        console.log('running')
+        $('.hamburger').click(() => $('.fat-nav').toggleClass('active'));
+    
+        function expanderFunc() {
+            if (window.innerWidth < 1200) {
+                const expands = Array.from(document.querySelectorAll('.expand'))
+                expands.forEach((item) => {
+                    item.addEventListener('click', () => {
+                        item.querySelector('.expand-content').classList.toggle('reveal');
+                    })
+                });
+            }
+        }
+    
+        window.onload = expanderFunc;
+        window.onresize = expanderFunc;
+    </script>
+</body>
+</html>

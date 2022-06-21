@@ -1,0 +1,10 @@
+// @import "../../../_xd.scss";
+// @import "../_site-extensions.scss";
+
+.latest-stock {
+    border-left: 1rem solid $brand-primary;
+    height: auto;
+    div[class="col-12"] {
+        min-height: 30vh;
+    }
+}

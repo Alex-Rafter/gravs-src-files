@@ -1,0 +1,161 @@
+%titles-defaults {
+  position: relative;
+  text-transform: uppercase;
+}
+
+%mb-icon-styles {
+  font-family: "mbblueskyicons" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+%flex-centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-centered-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%resp-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+%img-cover {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.resp-img {
+  @extend %resp-img;
+}
+
+.img-cover {
+  @extend %img-cover;
+}
+
+.img-nav {
+  width: 100%;
+  aspect-ratio: 2/0.8;
+  object-fit: contain;
+}
+
+.flex-c {
+  @extend %flex-centered;
+}
+
+.flex-c-col {
+  @extend %flex-centered-col;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.filter-dark {
+  filter: brightness(0.6);
+  transition: 500ms;
+}
+
+.filter-dark:hover {
+  filter: brightness(0.8);
+}
+
+// .featured-carousel {
+//   .slick-list {
+//     margin: 0 !important;
+//   }
+// }
+
+%small-container {
+  max-width: 1140px !important;
+}
+
+.container-sm {
+  @extend %small-container;
+}
+
+.pad {
+  padding-left: 8.25rem !important;
+  padding-right: 8.25rem !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .pad {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 992px) {
+  .pad {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  .pad-small {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+// Reorder 2 col grid items, so right hand item sites on top for mob
+.reorder-md {
+  div[class*="col-md-"]:nth-of-type(1) {
+    order: 2;
+  }
+  div[class*="col-md-"]:nth-of-type(2) {
+    order: 1;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .reorder {
+    div[class*="col-md-"]:nth-of-type(1) {
+      order: 1;
+    }
+    div[class*="col-md-"]:nth-of-type(2) {
+      order: 2;
+    }
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .reorder-xxl {
+    div[class*="col-xxl-"]:nth-of-type(1) {
+      order: 2;
+    }
+    div[class*="col-xxl-"]:nth-of-type(2) {
+      order: 1;
+    }
+  }
+}
+
+$z-index: 1, 2, 3, 4, 5, 6, 7, 8, 9;
+
+@each $i in $z-index {
+  .z-index-#{$i} {
+    z-index: #{$i};
+  }
+}
+
+$flex-grow: 2, 3, 4, 5, 6, 7, 8, 9;
+
+@each $i in $flex-grow {
+  .flex-grow-#{$i} {
+    flex-grow: #{$i};
+  }
+}

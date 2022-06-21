@@ -1,0 +1,12 @@
+@import "../../xd";
+
+.btn {
+	text-transform: uppercase;
+	letter-spacing: $xd-letter-spacing-headings;
+}
+
+.btn-group{
+	.btn[selected='true'] {
+		@extend .active;
+	}
+}
