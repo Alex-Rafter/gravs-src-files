@@ -27,14 +27,14 @@
                 <div class="col-12 col-xl-6 fade-in2">
                     <section class="tiles home home-tiles flex-c-col">
                         <a href="/" class="home-tiles__tile w-100"
-                            style='background-image: url("https://bluesky-cogcms.cdn.imgeng.in/media/r0va3i0r/audi_find_retailer.jpg?");
+                            style='background-image: url("/img/hero/kia-hero-tiple-placeholder.jpg");
                                 background-size: cover; background-position: center center; background-repeat:no-repeat;'>
                             <div class="">
 
                             </div>
                         </a>
                         <a href="/" class="home-tiles__tile w-100"
-                            style='background-image: url("https://bluesky-cogcms.cdn.imgeng.in/media/r0va3i0r/audi_find_retailer.jpg?");
+                            style='background-image: url("/img/hero/kia-hero-tiple-placeholder.jpg");
                                 background-size: cover; background-position: center center; background-repeat:no-repeat;'>
                             <div class="">
 

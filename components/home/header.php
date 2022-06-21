@@ -21,7 +21,7 @@
                 <!-- <nav class="collapse navbar-collapse order-xl-1" id="navBar">
     
                 </nav> -->
-                <div class="ms-xl-auto d-flex justify-content-end w-100" style="transform: translateX(-30px);">
+                <div class="ms-xl-auto d-flex justify-content-end w-100">
                 <div class="navbar__end-item d-none d-xl-flex g-reviews">
                     <a href="/" class="h-100 w-100 flex-c">
                         <i class="fa-thin fa-location-pin"></i>
