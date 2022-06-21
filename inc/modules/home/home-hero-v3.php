@@ -56,18 +56,18 @@
     </div>
     <article class="w-100 bg-light py-5" style="transform: translateY(-5px);">
         <div class="container">
-            <div class="brand-logos w-100 flex-c justify-content-between px-xl-9">
+            <div class="brand-logos w-100 flex-c justify-content-between px-4 px-xl-9">
                 <a class="brand-logos__item" href="/">
-                    <img src="/img/logos/dacia-logo.png" alt="logo">
+                    <img class="resp-img p-xl-5" src="/img/logos/sized/dacia-logo.png" alt="logo">
                 </a>
                 <a class="brand-logos__item" href="/">
-                    <img src="/img/logos/kia-logo.png" alt="logo">
+                    <img class="resp-img p-xl-5" src="/img/logos/sized/kia-logo.png" alt="logo">
                 </a>
                 <a class="brand-logos__item" href="/">
-                    <img src="/img/logos/renault-logo.png" alt="logo">
+                    <img class="resp-img p-xl-5" src="/img/logos/sized/renault-logo.png" alt="logo">
                 </a>
                 <a class="brand-logos__item" href="/">
-                    <img src="/img/logos/seat-logo.png" alt="logo">
+                    <img class="resp-img p-xl-5" src="/img/logos/sized/seat-logo.png" alt="logo">
                 </a>
             </div>
 
