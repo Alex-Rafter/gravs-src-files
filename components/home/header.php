@@ -41,6 +41,6 @@
           
             </div>
         </div>
-        <?php include_once('./components/home/fat-nav.php'); ?>
+        <?php include('./components/home/fat-nav/fat-nav.php'); ?>
 
     </header>

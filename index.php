@@ -10,7 +10,11 @@
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
 <body>
-<?php include_once('./components/home/header.php'); ?>
+<?php include('./components/home/header.php'); ?>
+
+<main class="main overflow-hidden" id="main">
+    <?php include('./inc/modules/home/home-hero-v3.php'); ?>
+</main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
