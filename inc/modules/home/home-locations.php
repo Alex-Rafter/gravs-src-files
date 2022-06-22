@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-5">
-        <div class="home-locations__copy bg-brand-secondary p-9">
+        <div class="home-locations__copy bg-brand-secondary p-9 h-100">
           <h2 class="home-locations__title">FIND YOUR NEAREST GRAVELLS</h2>
           <p class="home-locations__paragraph">
             We have locations across South Wales in Kidwelly, Narberth, Swansea
@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-7">
-        <div class="home-locations__repeater">
+        <div class="home-locations__repeater p-6 gap-4 h-100 w-100">
           <?php include('./inc/modules/home/card/card-location.php'); ?>
           <?php include('./inc/modules/home/card/card-location.php'); ?>
           <?php include('./inc/modules/home/card/card-location.php'); ?>
