@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
 <body>
-<?php include('./components/home/header.php'); ?>
+<?php include('./components/header.php'); ?>
 
 <main class="main overflow-hidden" id="main">
     
