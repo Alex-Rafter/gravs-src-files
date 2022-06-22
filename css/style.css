@@ -1482,8 +1482,8 @@ figure {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.625rem);
+  padding-left: var(--bs-gutter-x, 0.625rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -1519,7 +1519,7 @@ figure {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.25rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -6109,7 +6109,7 @@ textarea.form-control-lg {
 }
 
 .card-group > .card, .umb-grid .card-group > .content-panel__img-left, .umb-grid .card-group > .content-panel__img-right {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.625rem;
 }
 @media (min-width: 576px) {
   .card-group {
@@ -7130,7 +7130,7 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 .toast-container > :not(:last-child) {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.625rem;
 }
 
 .toast-header {
@@ -19583,7 +19583,7 @@ textarea.form-control-lg {
 
 /* Display Flex fix for parent div output by dynamic repeater */
 .row_dynamicrepeater > * {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.25rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -21086,7 +21086,7 @@ textarea.form-control-lg {
   margin-right: 0.3em;
 }
 #FindUsRepeater_upCOGDealerRepeater {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.25rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -21104,7 +21104,7 @@ textarea.form-control-lg {
 }
 
 #Shortlist_RepeaterUpdatePanel {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.25rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;

@@ -16,6 +16,8 @@
     
     <?php include('./inc/modules/home/home-hero-v3.php'); ?>
     <?php include('./inc/modules/home/chunky-spotlights.php'); ?>
+    <?php include('./inc/modules/home/home-about.php'); ?>
+    <?php include('./inc/modules/home/home-g-reviews.php'); ?>
     <?php include('./inc/modules/home/latest-stock.php'); ?>
     <?php include('./inc/modules/home/home-locations.php'); ?>
     
