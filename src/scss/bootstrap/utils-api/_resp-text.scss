@@ -1,20 +1,14 @@
 @import "../../variables";
 
-$utilities: (
-    "color": (
-    responsive : true,
-      property: color,
-      class: text,
-      values: map-merge(
-        $theme-colors,
-        (
-          "white": $white,
-          "body": $body-color,
-          "muted": $text-muted,
-          "black-50": rgba($black, .5),
-          "white-50": rgba($white, .5),
-          "reset": inherit,
-        )
-      )
-    ),    
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+      responsive: true,
+      rfs: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes,
+    ),
+  )
 );

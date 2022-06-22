@@ -6,6 +6,12 @@
         display: block;
     }
 
+    &__text {
+        @media only screen and (max-width: 1199px) {
+            font-size: calc(1.325rem + 0.9vw);
+        }
+    }
+
     &__card-img {
         position: relative;
         filter: brightness(0.9);

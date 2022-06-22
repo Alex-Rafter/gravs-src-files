@@ -3,8 +3,8 @@ $utilities: (
     property: text-shadow,
     class: "ts",
     values: (
-      light: #fff .1em 0 1em,
-      dark: #000 .1em 0 1em,
-    )
-  )
+      light: #fff 0.1em 0 1em,
+      dark: #000 0.1em 0 1em,
+    ),
+  ),
 );
