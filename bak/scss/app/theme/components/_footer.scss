@@ -1,0 +1,32 @@
+.footer {
+  padding-top: $spacer * 5;
+  padding-bottom: $spacer * 5;
+}
+
+.footer__heading {
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+}
+
+.footer__links {
+  margin-bottom: $spacer * 3;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: $spacer * 2;
+
+    li {
+      margin-bottom: $spacer * .25;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgba($black, .55);
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}

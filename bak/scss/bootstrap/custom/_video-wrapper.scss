@@ -1,0 +1,7 @@
+.video-wrapper {
+  @extend .ratio;
+  // @extend .ratio-1x1;
+  // @extend .ratio-4x3;
+  @extend .ratio-16x9;
+  // @extend .ratio-21x9;
+}

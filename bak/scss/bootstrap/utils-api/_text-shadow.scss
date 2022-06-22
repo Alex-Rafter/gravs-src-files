@@ -1,0 +1,10 @@
+$utilities: (
+  "text-shadow": (
+    property: text-shadow,
+    class: "ts",
+    values: (
+      light: #fff 0.1em 0 1em,
+      dark: #000 0.1em 0 1em,
+    ),
+  ),
+);

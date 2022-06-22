@@ -1,0 +1,4 @@
+/* Display Flex fix for parent div output by dynamic repeater */
+.row_dynamicrepeater > * {
+	@include bs-row;
+}

@@ -1,0 +1,175 @@
+.hero_banner {
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*! CSS Used from: https://www.sinclairaudi.co.uk/css/style.css ; media=all */
+@media all {
+  .h3,
+  h2,
+  h3 {
+    clear: both;
+    letter-spacing: 0.4px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  h2 {
+    font-family: "AvenirNext", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  @media (min-width: 500px) {
+    h2 {
+      font-size: 1.857rem;
+      line-height: 2rem;
+    }
+  }
+
+  h3 {
+    font-family: "AvenirNext", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  @media (min-width: 500px) {
+    h3 {
+      font-size: 1.714rem;
+      line-height: 1.714rem;
+    }
+  }
+
+  .section {
+    padding: 1.25rem 0;
+  }
+
+  .section.md {
+    padding: 3.75rem 0;
+  }
+
+  .container.sm {
+    max-width: 1024px;
+  }
+
+  .umb-grid .row {
+    margin-bottom: 30px;
+    min-width: 100%;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+  }
+
+  .no-decoration:hover,
+  .no-decoration:active,
+  .no-decoration:visited,
+  .no-decoration:focus {
+    text-decoration: none;
+  }
+
+  .hero_banner {
+    position: relative;
+    z-index: 0;
+    z-index: 100%;
+    height: 100%;
+  }
+
+  .hero_banner__video {
+    position: relative;
+    background-color: #000;
+    height: 20vh;
+
+    width: 100%;
+    overflow: hidden;
+    @media only screen and (min-width: 1200px) {
+      height: 70vh;
+      min-height: 570px;
+    }
+  }
+
+  .hero_banner__video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @media (max-width: 992px) {
+    .hero_banner__overlay {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero_banner__overlay {
+      top: 0;
+      right: 0;
+      bottom: inherit;
+      left: 0;
+      position: absolute;
+      z-index: 2;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .hero_banner .hero_banner__video {
+    // min-height: 240px;
+  }
+
+  @media (min-width: 1200px) {
+    .hero_banner .hero_banner__video {
+      min-height: 570px;
+    }
+  }
+
+  .hero_banner .hero_banner__overlay {
+    top: 0;
+    right: 0;
+    bottom: inherit;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero_banner .hero_banner__overlay h2 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.25rem;
+    font-weight: 425;
+  }
+
+  .home-tiles {
+    height: 60vh;
+      transform: translateY(-3px);
+
+    @media only screen and (min-width: 1200px) {
+        height: calc(70vh + 6px);
+        min-height: 570px;
+    }
+
+    &__tile {
+      height: 33%;
+    }
+  }
+}

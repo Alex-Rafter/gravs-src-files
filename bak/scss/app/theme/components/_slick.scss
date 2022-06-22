@@ -1,0 +1,15 @@
+.slick-slide {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.slider {
+  // occupy space of arrow icon
+  .carousel-control-prev, .slick-prev, .slider-prev, .carousel-control-next, .slick-next, .slider-next {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+}
