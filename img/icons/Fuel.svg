@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.774" height="21" viewBox="0 0 17.774 21">
+  <g id="Fuel" transform="translate(0.5 0.5)">
+    <path id="rect1259" d="M37,52.032V33.968A.95.95,0,0,1,37.968,33h9.677a.95.95,0,0,1,.968.968V52.032" transform="translate(-35.71 -33)" fill="none" stroke="#595959" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="rect1262" d="M33,92.968v-.323A.647.647,0,0,1,33.645,92h12.9a.647.647,0,0,1,.645.645v.323" transform="translate(-33 -72.968)" fill="none" stroke="#595959" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="rect1268" d="M42.968,40h6.452a.95.95,0,0,1,.968.968v5.806a.95.95,0,0,1-.968.968H42.968A.95.95,0,0,1,42,46.774V40.968A.95.95,0,0,1,42.968,40Z" transform="translate(-39.097 -37.742)" fill="none" stroke="#595959" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="path1271" d="M73,48.032h.968a.95.95,0,0,1,.968.968v5.161a.968.968,0,1,0,1.935,0V42.548L74.935,39" transform="translate(-60.097 -37.065)" fill="none" stroke="#595959" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="path1292" d="M79.323,47,79,48.29l.968.645" transform="translate(-64.161 -42.484)" fill="none" stroke="#595959" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

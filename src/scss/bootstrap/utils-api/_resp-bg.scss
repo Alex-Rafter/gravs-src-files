@@ -22,6 +22,7 @@ $utilities: (
     "color": (
     responsive : true,
       property: color,
+      state: hover,
       class: text,
       values: map-merge(
         $theme-colors,

@@ -5787,7 +5787,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 0px solid initial;
   border-radius: 0.1875rem;
 }
 .card > hr, .umb-grid .content-panel__img-left > hr, .umb-grid .content-panel__img-right > hr {
@@ -5800,13 +5800,13 @@ textarea.form-control-lg {
 }
 .card > .list-group:first-child, .umb-grid .content-panel__img-left > .list-group:first-child, .umb-grid .content-panel__img-right > .list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(0.1875rem - 1px);
-  border-top-right-radius: calc(0.1875rem - 1px);
+  border-top-left-radius: calc(0.1875rem - 0px);
+  border-top-right-radius: calc(0.1875rem - 0px);
 }
 .card > .list-group:last-child, .umb-grid .content-panel__img-left > .list-group:last-child, .umb-grid .content-panel__img-right > .list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.1875rem - 1px);
-  border-bottom-left-radius: calc(0.1875rem - 1px);
+  border-bottom-right-radius: calc(0.1875rem - 0px);
+  border-bottom-left-radius: calc(0.1875rem - 0px);
 }
 .card > .card-header + .list-group, .umb-grid .content-panel__img-left > .card-header + .list-group, .umb-grid .content-panel__img-right > .card-header + .list-group,
 .card > .list-group + .card-footer,
@@ -5817,7 +5817,7 @@ textarea.form-control-lg {
 
 .card-body, .umb-grid .tl-grid-img-block-aside {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1.875rem 0;
 }
 
 .card-title {
@@ -5834,38 +5834,38 @@ textarea.form-control-lg {
 }
 
 .card-link + .card-link {
-  margin-left: 1rem;
+  margin-left: 0;
 }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding: 0.9375rem 0;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 0px solid initial;
 }
 .card-header:first-child {
-  border-radius: calc(0.1875rem - 1px) calc(0.1875rem - 1px) 0 0;
+  border-radius: calc(0.1875rem - 0px) calc(0.1875rem - 0px) 0 0;
 }
 
 .card-footer {
-  padding: 0.5rem 1rem;
+  padding: 0.9375rem 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 0px solid initial;
 }
 .card-footer:last-child {
-  border-radius: 0 0 calc(0.1875rem - 1px) calc(0.1875rem - 1px);
+  border-radius: 0 0 calc(0.1875rem - 0px) calc(0.1875rem - 0px);
 }
 
 .card-header-tabs {
-  margin-right: -0.5rem;
-  margin-bottom: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: 0;
+  margin-bottom: -0.9375rem;
+  margin-left: 0;
   border-bottom: 0;
 }
 
 .card-header-pills {
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .card-img-overlay {
@@ -5875,7 +5875,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(0.1875rem - 1px);
+  border-radius: calc(0.1875rem - 0px);
 }
 
 .card-img,
@@ -5886,14 +5886,14 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0.1875rem - 1px);
-  border-top-right-radius: calc(0.1875rem - 1px);
+  border-top-left-radius: calc(0.1875rem - 0px);
+  border-top-right-radius: calc(0.1875rem - 0px);
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(0.1875rem - 1px);
-  border-bottom-left-radius: calc(0.1875rem - 1px);
+  border-bottom-right-radius: calc(0.1875rem - 0px);
+  border-bottom-left-radius: calc(0.1875rem - 0px);
 }
 
 .card-group > .card, .umb-grid .card-group > .content-panel__img-left, .umb-grid .card-group > .content-panel__img-right {
@@ -9854,7 +9854,15 @@ textarea.form-control-lg {
   color: #fff !important;
 }
 
+.text-white-hover:hover {
+  color: #fff !important;
+}
+
 .text-light {
+  color: #EFEFEF !important;
+}
+
+.text-light-hover:hover {
   color: #EFEFEF !important;
 }
 
@@ -9862,7 +9870,15 @@ textarea.form-control-lg {
   color: #B5B5B5 !important;
 }
 
+.text-grey-hover:hover {
+  color: #B5B5B5 !important;
+}
+
 .text-dark, .enhanced-data__item {
+  color: #595959 !important;
+}
+
+.text-dark-hover:hover {
   color: #595959 !important;
 }
 
@@ -9870,7 +9886,15 @@ textarea.form-control-lg {
   color: #2C2B2A !important;
 }
 
+.text-black-hover:hover {
+  color: #2C2B2A !important;
+}
+
 .text-primary {
+  color: #2C2B2A !important;
+}
+
+.text-primary-hover:hover {
   color: #2C2B2A !important;
 }
 
@@ -9878,7 +9902,15 @@ textarea.form-control-lg {
   color: #FFFFFF !important;
 }
 
+.text-secondary-hover:hover {
+  color: #FFFFFF !important;
+}
+
 .text-brand-primary {
+  color: #E21F25 !important;
+}
+
+.text-brand-primary-hover:hover {
   color: #E21F25 !important;
 }
 
@@ -9886,7 +9918,15 @@ textarea.form-control-lg {
   color: #099745 !important;
 }
 
+.text-brand-secondary-hover:hover {
+  color: #099745 !important;
+}
+
 .text-body {
+  color: #2C2B2A !important;
+}
+
+.text-body-hover:hover {
   color: #2C2B2A !important;
 }
 
@@ -9894,7 +9934,15 @@ textarea.form-control-lg {
   color: #B5B5B5 !important;
 }
 
+.text-muted-hover:hover {
+  color: #B5B5B5 !important;
+}
+
 .text-black-50 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.text-black-50-hover:hover {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -9902,7 +9950,15 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-50-hover:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
 .text-reset {
+  color: inherit !important;
+}
+
+.text-reset-hover:hover {
   color: inherit !important;
 }
 
@@ -11352,7 +11408,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-sm-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-sm-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-sm-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -11360,7 +11424,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-sm-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-sm-dark {
+    color: #595959 !important;
+  }
+
+  .text-sm-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -11368,7 +11440,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-sm-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-sm-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-sm-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -11376,7 +11456,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-sm-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-sm-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-sm-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -11384,7 +11472,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-sm-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-sm-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-sm-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -11392,7 +11488,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-sm-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-sm-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-sm-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -11400,7 +11504,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-sm-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-sm-reset {
+    color: inherit !important;
+  }
+
+  .text-sm-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -12679,7 +12791,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-md-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-md-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-md-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -12687,7 +12807,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-md-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-md-dark {
+    color: #595959 !important;
+  }
+
+  .text-md-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -12695,7 +12823,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-md-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-md-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-md-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -12703,7 +12839,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-md-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-md-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-md-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -12711,7 +12855,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-md-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-md-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-md-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -12719,7 +12871,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-md-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-md-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-md-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -12727,7 +12887,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-md-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-md-reset {
+    color: inherit !important;
+  }
+
+  .text-md-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -14006,7 +14174,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-lg-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-lg-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-lg-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -14014,7 +14190,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-lg-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-lg-dark {
+    color: #595959 !important;
+  }
+
+  .text-lg-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -14022,7 +14206,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-lg-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-lg-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-lg-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -14030,7 +14222,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-lg-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-lg-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-lg-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -14038,7 +14238,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-lg-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-lg-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-lg-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -14046,7 +14254,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-lg-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-lg-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-lg-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -14054,7 +14270,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-lg-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-lg-reset {
+    color: inherit !important;
+  }
+
+  .text-lg-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -15333,7 +15557,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-xl-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-xl-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-xl-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -15341,7 +15573,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xl-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xl-dark {
+    color: #595959 !important;
+  }
+
+  .text-xl-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -15349,7 +15589,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-xl-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-xl-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-xl-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -15357,7 +15605,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-xl-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-xl-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-xl-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -15365,7 +15621,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-xl-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-xl-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-xl-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -15373,7 +15637,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xl-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xl-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-xl-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -15381,7 +15653,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-xl-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-xl-reset {
+    color: inherit !important;
+  }
+
+  .text-xl-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -16660,7 +16940,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-xxl-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-xxl-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-xxl-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -16668,7 +16956,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xxl-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xxl-dark {
+    color: #595959 !important;
+  }
+
+  .text-xxl-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -16676,7 +16972,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-xxl-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-xxl-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-xxl-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -16684,7 +16988,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-xxl-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-xxl-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-xxl-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -16692,7 +17004,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-xxl-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-xxl-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-xxl-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -16700,7 +17020,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xxl-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xxl-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-xxl-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -16708,7 +17036,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-xxl-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-xxl-reset {
+    color: inherit !important;
+  }
+
+  .text-xxl-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -17987,7 +18323,15 @@ textarea.form-control-lg {
     color: #fff !important;
   }
 
+  .text-xxxl-white-hover:hover {
+    color: #fff !important;
+  }
+
   .text-xxxl-light {
+    color: #EFEFEF !important;
+  }
+
+  .text-xxxl-light-hover:hover {
     color: #EFEFEF !important;
   }
 
@@ -17995,7 +18339,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xxxl-grey-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xxxl-dark {
+    color: #595959 !important;
+  }
+
+  .text-xxxl-dark-hover:hover {
     color: #595959 !important;
   }
 
@@ -18003,7 +18355,15 @@ textarea.form-control-lg {
     color: #2C2B2A !important;
   }
 
+  .text-xxxl-black-hover:hover {
+    color: #2C2B2A !important;
+  }
+
   .text-xxxl-primary {
+    color: #2C2B2A !important;
+  }
+
+  .text-xxxl-primary-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -18011,7 +18371,15 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 
+  .text-xxxl-secondary-hover:hover {
+    color: #FFFFFF !important;
+  }
+
   .text-xxxl-brand-primary {
+    color: #E21F25 !important;
+  }
+
+  .text-xxxl-brand-primary-hover:hover {
     color: #E21F25 !important;
   }
 
@@ -18019,7 +18387,15 @@ textarea.form-control-lg {
     color: #099745 !important;
   }
 
+  .text-xxxl-brand-secondary-hover:hover {
+    color: #099745 !important;
+  }
+
   .text-xxxl-body {
+    color: #2C2B2A !important;
+  }
+
+  .text-xxxl-body-hover:hover {
     color: #2C2B2A !important;
   }
 
@@ -18027,7 +18403,15 @@ textarea.form-control-lg {
     color: #B5B5B5 !important;
   }
 
+  .text-xxxl-muted-hover:hover {
+    color: #B5B5B5 !important;
+  }
+
   .text-xxxl-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .text-xxxl-black-50-hover:hover {
     color: rgba(0, 0, 0, 0.5) !important;
   }
 
@@ -18035,7 +18419,15 @@ textarea.form-control-lg {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
+  .text-xxxl-white-50-hover:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
   .text-xxxl-reset {
+    color: inherit !important;
+  }
+
+  .text-xxxl-reset-hover:hover {
     color: inherit !important;
   }
 }
@@ -18403,11 +18795,11 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0 1rem 1rem;
+  padding: 0 0 1.875rem;
 }
 .card-meta-divider {
   width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 0 1.875rem;
 }
 
 .enhanced-data__item {
