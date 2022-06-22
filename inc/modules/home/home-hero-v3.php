@@ -1,7 +1,7 @@
 <div class="container-fluid px-0">
     <div class="hero_banner home w-100">
         <div class="container-fluid p-0">
-            <div class="row no-gutters">
+            <div class="row hero_banner__row no-gutters">
 
                 <!-- Col One : START -->
                 <div class="col-12 col-xl-6 fade-in position-relative">
