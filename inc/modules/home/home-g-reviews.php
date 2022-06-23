@@ -25,22 +25,3 @@
   </div>
 
 </section>
-<style>
-      .g-reviews__col-one,
-    .g-reviews__col-one img {
-    min-height : 50vh;
-  }
-  @media only screen and (min-width: 768px) {
-    .g-reviews__col-one,
-    .g-reviews__col-one img {
-    min-height : 40vh;
-  }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    .g-reviews__col-one img {
-    max-width: 40vw !important;
-   }
-  }
-
-</style>
