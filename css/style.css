@@ -22517,13 +22517,6 @@ ul.navbar-nav {
   width: 100%;
 }
 
-.hero_banner .hero_banner__overlay h2, .hero_banner .hero_banner__overlay .h2 {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  letter-spacing: 0.25rem;
-  font-weight: 425;
-}
-
 .home-tiles {
   height: 60vh;
   transform: translateY(-3px);

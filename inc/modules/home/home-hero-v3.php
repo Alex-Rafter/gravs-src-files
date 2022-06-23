@@ -15,7 +15,7 @@
                     <!-- Hero Overlay : START -->
                     <a class="hero_banner__overlay flex-c flex-wrap h-100 w-100 text-decoration-none"
                         href="/super-search/" title="SEARCH USED CARS">
-                        <h2 class="text-center text-uppercase text-white">SEARCH USED CARS</h2>
+                        <h2 class="text-center text-uppercase text-white">KIA NEW CARS</h2>
                     </a>
                     <!-- Hero Overlay : END -->
 
@@ -25,26 +25,27 @@
 
                 <!-- Col Two : START -->
                 <div class="col-12 col-xl-6 fade-in2">
-                    <section class="tiles home home-tiles flex-c-col">
-                        <a href="/" class="home-tiles__tile w-100"
-                            style='background-image: url("/img/hero/kia-hero-tiple-placeholder.jpg");
-                                background-size: cover; background-position: center center; background-repeat:no-repeat;'>
-                            <div class="">
-
+                <section class="tiles home home-tiles flex-c-col">
+                        <div class="home-tiles__tile w-100 position-relative" style="background-image: url(&quot;/img/hero/kia-hero-tiple-placeholder.jpg&quot;);
+                                background-size: cover; background-position: center center; background-repeat:no-repeat;">
+                            <div class="flex-c-col flex-wrap h-100 w-100 text-decoration-none position-absolute">
+                                <label class="h3 mb-2 fw-bold text-white text-uppercase">VALUE MY CAR</label>
+                                <input type="text" class="form-control" style="width: 250px;height: 40px;">
                             </div>
-                        </a>
-                        <a href="/" class="home-tiles__tile w-100"
-                            style='background-image: url("/img/hero/kia-hero-tiple-placeholder-2.jpg");
-                                background-size: cover; background-position: center center; background-repeat:no-repeat;'>
-                            <div class="">
+                        </div>
 
+                        <div class="home-tiles__tile w-100 position-relative" style="background-image: url(&quot;/img/hero/kia-hero-tiple-placeholder-2.jpg&quot;);
+                                background-size: cover; background-position: center center; background-repeat:no-repeat;">
+                            <div class="flex-c-col flex-wrap h-100 w-100 text-decoration-none position-absolute">
+                                <label class="h3 mb-2 fw-bold text-white text-uppercase">
+                                    SEARCH 672 USED STOCK
+                                </label>
+                                <input type="text" class="form-control" style="width: 250px;height: 40px;">
                             </div>
-                        </a>
-                        <div class="home-tiles__tile w-100 position-relative"
-                            style='background-image: url("/img/hero/kia-hero-tiple-placeholder-5.jpg");
-                                background-size: cover; background-position: center center; background-repeat:no-repeat;'>
-                            <a href="/"
-                                class="position-absolute top-0 left-0 w-100 h-100 flex-c h3 fw-bold text-white text-uppercase">
+                        </div>
+                        <div class="home-tiles__tile w-100 position-relative" style="background-image: url(&quot;/img/hero/kia-hero-tiple-placeholder-5.jpg&quot;);
+                                background-size: cover; background-position: center center; background-repeat:no-repeat;">
+                            <a href="/" class="position-absolute top-0 left-0 w-100 h-100 flex-c h3 fw-bold text-white text-uppercase">
                                 Book and service or MOT
                             </a>
                         </div>
