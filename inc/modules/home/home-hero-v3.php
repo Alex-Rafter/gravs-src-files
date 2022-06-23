@@ -6,8 +6,8 @@
                 <!-- Col One : START -->
                 <div class="col-12 col-xl-6 fade-in position-relative">
                     <!-- Video : START -->
-                    <div class="hero_banner__video">
-                        <video playsinline="" loop="" muted="" autoplay="">
+                    <div class="hero_banner__video bg-black">
+                        <video playsinline="" loop="" muted="" autoplay="" class="d-none d-xl-block">
                             <source src="/img/video/ElectricHybridAprilAd.webm" type="video/mp4">
                         </video>
                     </div>

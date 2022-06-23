@@ -2,7 +2,7 @@
 <li class="w-100 mx-6 mx-xl-0">
     <a href="/aston-martin/new-cars/" class="text-primary m-xl-4">
         <!-- Image -->
-        <img class="bg-light img-nav p-3 mb-3 d-none d-xl-block" src="/img/nav/cars/placeholder-car.png" width="150px"
+        <img class="bg-light img-nav p-3 mb-3 d-none d-xl-block" src="/img/nav/cars/placeholder-carpng" width="150px"
             alt="Aston Martin Logo">
         <!-- <br> -->
         <!-- Text -->
