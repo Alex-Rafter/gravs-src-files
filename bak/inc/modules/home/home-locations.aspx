@@ -6,7 +6,7 @@
           <h2 class="home-locations__title text-white fs-xl-1 lh-sm">FIND YOUR NEAREST GRAVELLS</h2>
           <p class="home-locations__paragraph">
             We have locations across South Wales in Kidwelly, Narberth, Swansea
-            (Llansamlet and Fforestfach), Bridgend, Abergavenny and Hereford
+            (Llansamlet and Fforestfach), Bridgend, Abergavenny and Hereford.
           </p>
           <input type="text" placeholder="your postcode" class="form-control w-100 w-sm-50 w-lg-100 w-xxl-50 mb-2"/>
           <input type="submit" class="btn btn-primary border border-white" />
@@ -14,12 +14,12 @@
       </div>
       <div class="col-12 col-lg-7">
         <div class="home-locations__repeater py-5 py-md-4 p-xl-6 gap-4 h-100 w-100">
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
-          <!--#include file="/inc/modules/home/card/card-location.aspx" -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
+          <!--#include file="/inc/modules/home/card/card-location.aspx' -->
         </div>
       </div>
     </div>

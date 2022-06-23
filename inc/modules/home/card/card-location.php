@@ -1,6 +1,6 @@
 <div class="card">
     <a href="">
-        <img src="/img/card/card-placeholder.jpg" class="w-100" style="aspect-ratio: 2/1;">
+        <img src="/img/dealerships/dealership-placeholder.jpg" class="w-100" style="aspect-ratio: 2/1;">
     </a>
     <div class="card-body pt-3 pb-0">
         <div class="card-titles">
