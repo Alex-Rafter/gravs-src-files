@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card p-4 p-xl-0">
 <a href="">
     <img src="/img/card/card-placeholderjpg" class="w-100" style="aspect-ratio: 1.5/1;">
 </a>
