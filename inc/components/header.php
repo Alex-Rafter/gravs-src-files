@@ -1,5 +1,5 @@
 <header class="shadow-sm header header_theme_default mb-0" id="groupHeader">
-        <div class="navbar navbar-light navbar--header-main">
+        <div class="navbar navbar-light navbar--header-main overflow-hidden">
             <div class="container-fluid px-0 justify-content-xl-start w-100 flex-nowrap">
                 <button v-scope="{closedMob : false}"  class="navbar-toggler bg-primary order-1 order-xl-0" :class="{'open' : closedMob}"  @click="closedMob = !closedMob" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
                     aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">

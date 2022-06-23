@@ -3612,7 +3612,7 @@ figure {
   width: 100%;
   padding: 0.8125rem 1.1875rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   color: #2C2B2A;
   background-color: #fff;
@@ -3779,7 +3779,7 @@ textarea.form-control-lg {
   padding: 0.8125rem 3.5625rem 0.8125rem 1.1875rem;
   -moz-padding-start: calc(1.1875rem - 3px);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   color: #2C2B2A;
   background-color: #fff;
@@ -4098,7 +4098,7 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.8125rem 1.1875rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   color: #2C2B2A;
   text-align: center;

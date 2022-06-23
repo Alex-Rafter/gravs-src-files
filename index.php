@@ -20,8 +20,9 @@
     <?php include('./inc/modules/home/home-g-reviews.php'); ?>
     <?php include('./inc/modules/home/latest-stock.php'); ?>
     <?php include('./inc/modules/home/home-locations.php'); ?>
-    <?php include('./inc/modules/home/get-in-touch.php'); ?>
+
 </main>
+<?php include('./inc/modules/home/get-in-touch.php'); ?>
 <?php include('./inc/components/footer.php'); ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
