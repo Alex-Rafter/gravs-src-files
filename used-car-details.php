@@ -15,7 +15,9 @@
 <main class="main overflow-hidden" id="main">
 <?php include('./inc/modules/used-vehicles/ucd-hero.php'); ?>
 <?php include('./inc/modules/shared/get-in-touch-icons.php'); ?>
-
+<?php include('./inc/modules/used-vehicles/ucd-spec.php'); ?>
+<?php include('./inc/modules/used-vehicles/similar-stock.php'); ?>
+<?php include('./inc/modules/shared/get-in-touch-map.php'); ?>
     <!-- UCD HERO : START -->
 <section class="container-xxl">
     <div class="row">

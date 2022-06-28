@@ -6741,9 +6741,9 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  color: #2C2B2A;
+  background-color: #EFEFEF;
+  border: 0px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -6756,7 +6756,7 @@ textarea.form-control-lg {
 .list-group-item.disabled, .list-group-item:disabled {
   color: #6c757d;
   pointer-events: none;
-  background-color: #fff;
+  background-color: #EFEFEF;
 }
 .list-group-item.active, .proxy-list li.list-group-item.selected, .btn-group .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list li.list-group-item[selected=true], .proxy-list .btn-group li.list-group-item[selected=true] {
   z-index: 2;
@@ -6768,8 +6768,8 @@ textarea.form-control-lg {
   border-top-width: 0;
 }
 .list-group-item + .list-group-item.active, .proxy-list .list-group-item + li.list-group-item.selected, .btn-group .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-item + li.list-group-item[selected=true] {
-  margin-top: -1px;
-  border-top-width: 1px;
+  margin-top: 0px;
+  border-top-width: 0px;
 }
 
 .list-group-horizontal {
@@ -6787,12 +6787,12 @@ textarea.form-control-lg {
   margin-top: 0;
 }
 .list-group-horizontal > .list-group-item + .list-group-item {
-  border-top-width: 1px;
+  border-top-width: 0px;
   border-left-width: 0;
 }
 .list-group-horizontal > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal > .list-group-item + li.list-group-item[selected=true] {
-  margin-left: -1px;
-  border-left-width: 1px;
+  margin-left: 0px;
+  border-left-width: 0px;
 }
 
 @media (min-width: 576px) {
@@ -6811,12 +6811,12 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-sm > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-sm > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-sm > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-sm > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-sm > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-sm > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-sm > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-sm > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -6835,12 +6835,12 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-md > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-md > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-md > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-md > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-md > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-md > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-md > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-md > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 @media (min-width: 992px) {
@@ -6859,12 +6859,12 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-lg > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-lg > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-lg > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-lg > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-lg > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-lg > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-lg > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-lg > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -6883,12 +6883,12 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-xl > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-xl > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-xl > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-xl > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-xl > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-xl > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-xl > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-xl > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 @media (min-width: 1400px) {
@@ -6907,12 +6907,12 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-xxl > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-xxl > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-xxl > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-xxl > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-xxl > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-xxl > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-xxl > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-xxl > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 @media (min-width: 1600px) {
@@ -6931,19 +6931,19 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-xxxl > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-left-width: 0;
   }
   .list-group-horizontal-xxxl > .list-group-item + .list-group-item.active, .proxy-list .list-group-horizontal-xxxl > .list-group-item + li.list-group-item.selected, .btn-group .list-group-horizontal-xxxl > .list-group-item + .list-group-item.btn[selected=true], .btn-group .umb-grid .list-group-horizontal-xxxl > .list-group-item + .list-group-item[selected=true]._vm_btn, .umb-grid .btn-group .list-group-horizontal-xxxl > .list-group-item + .list-group-item[selected=true]._vm_btn, .btn-group .proxy-list .list-group-horizontal-xxxl > .list-group-item + li.list-group-item[selected=true], .proxy-list .btn-group .list-group-horizontal-xxxl > .list-group-item + li.list-group-item[selected=true] {
-    margin-left: -1px;
-    border-left-width: 1px;
+    margin-left: 0px;
+    border-left-width: 0px;
   }
 }
 .list-group-flush {
   border-radius: 0;
 }
 .list-group-flush > .list-group-item {
-  border-width: 0 0 1px;
+  border-width: 0 0 0px;
 }
 .list-group-flush > .list-group-item:last-child {
   border-bottom-width: 0;
