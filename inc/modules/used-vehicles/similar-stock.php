@@ -1,7 +1,7 @@
 <section class="container-fluid px-0 latest-stock">
   <div class="row">
     <div class="col-12 col-lg-4">
-      <div class="bg-white p-5 py-6 p-md-7 px-lg-5 py-lg-6 p-xl-8 p-xxl-8 p-xxxl-8 mb-0 flex-c-col justify-content-center align-items-start flex-wrap h-100">
+      <div class="bg-white p-4 pt-6 p-md-7 px-lg-5 py-lg-6 p-xl-8 p-xxl-8 p-xxxl-8 mb-0 flex-c-col justify-content-center align-items-start flex-wrap h-100">
         <h2 class="latest-stock__title">SIMILAR STOCK</h2>
         <p class="latest-stock__copy">
           Keep up to date with the latest stock available throughout our
@@ -29,3 +29,10 @@
     </div>
   </div>
 </section>
+<style>
+  @media only screen and (max-width: 1199px) {
+    .latest-stock {
+      border-left: none !important;
+    }
+  }
+</style>

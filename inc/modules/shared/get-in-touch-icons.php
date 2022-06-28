@@ -1,5 +1,5 @@
 <div class="container-fluid px-0 get-in-touch-icons">
-    <div class="flex-c justify-content-around justify-content-md-center bg-light bg-xl-white gap-0 gap-md-6 gap-xl-3 p-3">
+    <div class="flex-c justify-content-around justify-content-md-center bg-white bg-xl-white gap-0 gap-md-6 gap-xl-3 p-3 pt-0">
         <?php include('./inc/modules/home/card/card-in-touch.php'); ?>
         <?php include('./inc/modules/home/card/card-in-touch.php'); ?>
         <?php include('./inc/modules/home/card/card-in-touch.php'); ?>
@@ -13,4 +13,5 @@
     bottom: 0rem;
     z-index: 10000;
 }
+
 </style>

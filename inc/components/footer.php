@@ -14,7 +14,7 @@
                     <li class="mb-1"><a href="/used-car-results/hyundai/-1.aspx">HYUNDAI (3)</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-2 d-none d-md-block">
                 <h5 class="text-primary text-sm">DACIA</h5>
                 <ul class="d-flex flex-column nav">
                     <li class="mb-1"><a href="/used-car-results/audi/-1.aspx">AUDI (1)</a></li>
@@ -27,7 +27,7 @@
                     <li class="mb-1"><a href="/used-car-results/hyundai/-1.aspx">HYUNDAI (3)</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-2 d-none d-md-block">
                 <h5 class="text-primary text-sm">KIA</h5>
                 <ul class="d-flex flex-column nav">
                     <li class="mb-1"><a href="/used-car-results/audi/-1.aspx">AUDI (1)</a></li>
@@ -40,7 +40,7 @@
                     <li class="mb-1"><a href="/used-car-results/hyundai/-1.aspx">HYUNDAI (3)</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-2 d-none d-md-block">
                 <h5 class="text-primary text-sm">RENAULT</h5>
                 <ul class="d-flex flex-column nav">
                     <li class="mb-1"><a href="/used-car-results/audi/-1.aspx">AUDI (1)</a></li>
@@ -53,7 +53,7 @@
                     <li class="mb-1"><a href="/used-car-results/hyundai/-1.aspx">HYUNDAI (3)</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-2 d-none d-md-block">
                 <h5 class="text-primary text-sm">SEAT</h5>
                 <ul class="d-flex flex-column nav">
                     <li class="mb-1"><a href="/used-car-results/audi/-1.aspx">AUDI (1)</a></li>

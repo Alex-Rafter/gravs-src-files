@@ -1,6 +1,6 @@
-<div class="container-xxl px-0">
+<div class="in-touch-map container-xxl px-xl-0 p-4">
     <div class="row">
-        <div class="in-touch-map col-12 col-md-7 px-md-0 pe-xl-4">
+        <div class="col-12 col-md-7 px-md-0 pe-xl-4 overflow-hidden">
             <h2 class="in-touch-map__title h1 mb-0">LOCATED AT GRAVELLS RENAULT KIDWELLY</h2>
             <div
                 class="card-summary border-top border-bottom border-primary flex-c justify-content-start gap-4 py-4 mt-3 mb-5">
@@ -89,9 +89,9 @@
             <img class="img-cover h-100" src="/img/in-touch/map-placeholder-2.jpg" alt="map of gravells location"
                 style="aspect-ratio: 2.5/1;">
         </div>
-        <div class="col-12 col-md-5 px-md-0">
+        <div class="col-12 col-md-5 px-md-0 mt-5 mt-xl-0">
         <div class="in-touch-form flex-c h-100 mb-0 ">
-                <div class="bg-primary text-white p-5 py-6 p-md-7 px-lg-6 py-lg-6 p-xl-7 p-xxl-8 p-xxxl-9 flex-c-col justify-content-center align-items-start flex-wrap h-100">
+                <div class="bg-primary text-white p-5 py-6 p-md-7 px-lg-6 py-lg-6 p-xl-7 p-xxl-8 p-xxxl-9 flex-c-col justify-content-center align-items-start flex-wrap h-100 w-100">
                     <h2 class="home-locations__title text-white fs-xl-1 lh-sm mb-5">GET DIRECTIONS</h2>
                     <p class="home-locations__paragraph mb-5 w-xl-75">
                     We look forward to welcoming you at Gravells Renault and Dacia Kidwelly.

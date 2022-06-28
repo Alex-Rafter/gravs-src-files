@@ -14,7 +14,6 @@
 
 <main class="main overflow-hidden" id="main">
 <?php include('./inc/modules/used-vehicles/ucd-hero.php'); ?>
-<?php include('./inc/modules/shared/get-in-touch-icons.php'); ?>
 <?php include('./inc/modules/used-vehicles/ucd-spec.php'); ?>
 <?php include('./inc/modules/used-vehicles/similar-stock.php'); ?>
 <?php include('./inc/modules/shared/get-in-touch-map.php'); ?>
@@ -31,6 +30,7 @@
 </section>
 <!-- UCD HERO : END -->
 </main>
+<?php include('./inc/modules/used-vehicles/get-in-touch-icons-ucd.php'); ?>
 <?php include('./inc/components/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
