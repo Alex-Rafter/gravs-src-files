@@ -6303,8 +6303,8 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   color: #2C2B2A;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: transparent;
+  border: 0px solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6321,7 +6321,7 @@ textarea.form-control-lg {
 .CogCmsPagination > .pagination span:hover {
   z-index: 2;
   color: #EFEFEF;
-  background-color: #e9ecef;
+  background-color: transparent;
   border-color: #dee2e6;
 }
 .page-link:focus, .COGPager a:focus, .COGPager span:focus,
@@ -6342,7 +6342,7 @@ textarea.form-control-lg {
 .CogCmsPagination > .pagination li:not(:first-child) .page-link,
 .CogCmsPagination > .pagination li:not(:first-child) a,
 .CogCmsPagination > .pagination li:not(:first-child) span {
-  margin-left: -1px;
+  margin-left: 0px;
 }
 .page-item.active .page-link, .proxy-list li.page-item.selected .page-link, .page-item.active .COGPager a, .proxy-list li.page-item.selected .COGPager a, .COGPager .page-item.active a, .page-item.active .COGPager span, .proxy-list li.page-item.selected .COGPager span, .COGPager .page-item.active span,
 .page-item.active .CogCmsPagination > .pagination a,
@@ -6407,9 +6407,9 @@ textarea.form-control-lg {
 .CogCmsPagination > .pagination .btn-group .proxy-list li[selected=true] span,
 .proxy-list .CogCmsPagination > .pagination .btn-group li[selected=true] span {
   z-index: 3;
-  color: #fff;
-  background-color: #2C2B2A;
-  border-color: #2C2B2A;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .page-item.disabled .page-link, .page-item.disabled .COGPager a, .COGPager .page-item.disabled a, .page-item.disabled .COGPager span, .COGPager .page-item.disabled span,
 .page-item.disabled .CogCmsPagination > .pagination a,
@@ -8673,6 +8673,10 @@ textarea.form-control-lg {
   width: 25% !important;
 }
 
+.w-33 {
+  width: 33% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -10399,6 +10403,10 @@ textarea.form-control-lg {
     width: 25% !important;
   }
 
+  .w-sm-33 {
+    width: 33% !important;
+  }
+
   .w-sm-50 {
     width: 50% !important;
   }
@@ -11868,6 +11876,10 @@ textarea.form-control-lg {
 
   .w-md-25 {
     width: 25% !important;
+  }
+
+  .w-md-33 {
+    width: 33% !important;
   }
 
   .w-md-50 {
@@ -13341,6 +13353,10 @@ textarea.form-control-lg {
     width: 25% !important;
   }
 
+  .w-lg-33 {
+    width: 33% !important;
+  }
+
   .w-lg-50 {
     width: 50% !important;
   }
@@ -14810,6 +14826,10 @@ textarea.form-control-lg {
 
   .w-xl-25 {
     width: 25% !important;
+  }
+
+  .w-xl-33 {
+    width: 33% !important;
   }
 
   .w-xl-50 {
@@ -16283,6 +16303,10 @@ textarea.form-control-lg {
     width: 25% !important;
   }
 
+  .w-xxl-33 {
+    width: 33% !important;
+  }
+
   .w-xxl-50 {
     width: 50% !important;
   }
@@ -17752,6 +17776,10 @@ textarea.form-control-lg {
 
   .w-xxxl-25 {
     width: 25% !important;
+  }
+
+  .w-xxxl-33 {
+    width: 33% !important;
   }
 
   .w-xxxl-50 {
@@ -19603,9 +19631,9 @@ textarea.form-control-lg {
 .COGPager .COGPagerItemSelected span,
 .CogCmsPagination > .pagination .COGPagerItemSelected span {
   z-index: 3;
-  color: #fff;
-  background-color: #2C2B2A;
-  border-color: #2C2B2A;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
 }
 .list-view .list-col {
   flex: 1 0 0%;

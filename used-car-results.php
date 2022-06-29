@@ -15,7 +15,21 @@
 <main class="main overflow-hidden" id="main">
 <?php include('./inc/modules/used-vehicles/ucr-search.php'); ?>
 <?php include('./inc/modules/used-vehicles/ucr-grid.php'); ?>
+<?php include('./inc/modules/used-vehicles/ucr-pagination.php'); ?>
+<?php include('./inc/modules/used-vehicles/ucr-rep-example.php'); ?>
 </main>
+<div class="container-fluid px-0">
+    <div class="get-in-touch get-in-touch--grow flex-c justify-content-around justify-content-md-center bg-light bg-xl-white gap-0 gap-md-6 gap-xl-3 p-3">
+        <?php include('./inc/modules/home/card/card-in-touch-grow.php'); ?>
+        <?php include('./inc/modules/home/card/card-in-touch-grow.php'); ?>
+        <?php include('./inc/modules/home/card/card-in-touch-grow.php'); ?>
+        <?php include('./inc/modules/home/card/card-in-touch-grow.php'); ?>
+        <?php include('./inc/modules/home/card/card-in-touch-grow.php'); ?>
+    </div>
+</div>
+<style>
+
+</style>
 <?php include('./inc/components/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
