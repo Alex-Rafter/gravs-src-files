@@ -1,5 +1,4 @@
-<div class="in-touch-map container-xxl p-4 p-md-7 px-lg-0 " style="
-">
+<div class="in-touch-map container-xxl p-4 p-md-7">
     <div class="row">
         <div class="col-12 col-lg-7 px-md-0 px-lg-3 overflow-hidden">
             <h2 class="in-touch-map__title h1 mb-0">LOCATED AT GRAVELLS RENAULT KIDWELLY</h2>
