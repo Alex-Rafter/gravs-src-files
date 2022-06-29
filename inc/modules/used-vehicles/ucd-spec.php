@@ -1,7 +1,7 @@
-<section class="ucd-spec p-4 p-lg-7 p-xl-10 bg-light">
+<section class="ucd-spec p-4 p-md-7 p-xl-10 bg-light">
     <div class="container px-0 mx-0">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 px-md-0 px-lg-2">
             <div class="ucd-spec__titles mb-6 d-none d-xl-block">
                     <h2 class="ucd-hero__title h1 mb-0">2017 RENAULT CAPTUR</h2>
                     <h3 class="ucd-hero_sub-title fs-5 fw-light mb-0">1.5 DYNAMIQUE NAV DCI</h3>
