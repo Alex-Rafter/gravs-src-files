@@ -1,22 +1,22 @@
 <div class="py-5 bg-light mb-2">
     <div class="container px-4 px-xxl-0">
-            <div class="row row align-items-sm-center">
-                <div class="col-12 col-md-6">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb breadcrumb-no-gutter  mb-0">
-                            <li class="breadcrumb-item"><a href="/">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Service Booking</li>
-                        </ol>
-                    </nav>
-                </div>
-                
+        <div class="row row align-items-sm-center">
+            <div class="col-12 col-md-6">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb breadcrumb-no-gutter  mb-0">
+                        <li class="breadcrumb-item fw-bold text-uppercase"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item text-uppercase active" aria-current="page">Service Booking</li>
+                    </ol>
+                </nav>
             </div>
+
         </div>
     </div>
+
     <div class="container p-6 p-xl-8 bg-white shadow w-xl-75">
         <div class="row">
             <div class="col-12 col-lg-8 offset-lg-2">
-                <fieldset id="service-booking-form-1" class="service-booking py-6 py-xl-7">
+                <fieldset id="service-booking-form-1" class="service-booking">
                     <div class="mb-3 form-floating">
                         <!-- if your website is single-dealer, remove the next line; for franchises, use DealerIdsToInclude and DealerIdsToExclude to tailor the dropdown list -->
                         <select name="dealerid" id="dealerid" class="form-select" required="">
@@ -71,12 +71,12 @@
                             Please enter a valid telephone number
                         </div>
                     </div>
-                    <div class="form__submit">
-                        <a id="callback" class="btn btn-primary gtm-track--submit_callback"
+                    <div class="form__submit flex-c gap-4 py-4">
+                        <a id="callback" class="btn btn-outline-primary gtm-track--submit_callback"
                             href="javascript:__doPostBack('callback','')">Let us call you!
                             <!-- if your website is single-dealer, add DealerID="123" to the next line -->
                         </a>
-                        <span>OR</span>
+                        <span class="text-center">OR</span>
                         <input type="submit" name="next" value="Book your service online" id="next"
                             class="btn btn-primary gtm-track--submit_booking">
                     </div>
@@ -115,3 +115,4 @@
             <!-- Price Match Promise - Hidden for Now   -->
         </div>
     </div>
+</div>

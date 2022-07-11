@@ -4,8 +4,8 @@
             <div class="col-12 col-md-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb breadcrumb-no-gutter  mb-0">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Service Booking</li>
+                        <li class="breadcrumb-item fw-bold text-uppercase"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item text-uppercase active" aria-current="page">Service Booking Step 2</li>
                     </ol>
                 </nav>
             </div>
@@ -26,7 +26,7 @@
                 </fieldset>
             </div>
             <div id="up1" class="mb-3">
-                <div id="success">
+            <div id="success">
                     <h2 class="mb-3">
                         FORD
                         FIESTA
@@ -39,7 +39,7 @@
                     </h2>
                     <div class="mb-3 date-picker">
                         <div class="input-group">
-                            <span class="input-group-text">
+                            <span class="input-group-text bg-brand-secondary">
                                 <i class="bi bi-calendar"></i>
                             </span>
                             <input name="preferredDate" type="text" onchange="javascript:setTimeout('__doPostBack(\'preferredDate\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="preferredDate" class="form-control ignore-read-only flatpickr flatpickr-input" placeholder="Preferred date" required="" readonly="readonly">
@@ -47,7 +47,7 @@
                     </div>
                     <div class="mb-3">
                         <div class="input-group">
-                            <span class="input-group-text">
+                            <span class="input-group-text bg-brand-secondary">
                                 <i class="bi bi-clock"></i>
                             </span>
                             <select name="preferredTime" id="preferredTime" class="form-control" required="">
@@ -76,24 +76,24 @@
                     <div class="mb-3">
                         <input name="mileage" type="text" id="mileage" class="form-control" placeholder="Your vehicle's mileage" required="" min="1">
                     </div>
-                    <div id="service-options">
-                        <div class="btn-group mb-3">
+                    <div id="service-options flex-c">
+                        <div class="btn-group mb-3 w-100 flex-c">
                             <!-- Service options: see documentation for details of how to set these up -->
-                            <a selected="false" id="o2" class="btn btn-outline-primary service-option" href="javascript:__doPostBack('o2','')">
+                            <a selected="false" id="o2" class="btn btn-outline-primary service-option w-50" href="javascript:__doPostBack('o2','')">
                                 <strong>Minor Service</strong><br>
                                 From £109
                             </a>
-                            <a selected="false" id="o4" class="btn btn-outline-primary service-option" href="javascript:__doPostBack('o4','')">
+                            <a selected="false" id="o4" class="btn btn-outline-primary service-option w-50" href="javascript:__doPostBack('o4','')">
                                 <strong>Major Service</strong><br>
                                 From £159
                             </a>
                         </div>
-                        <div class="btn-group mb-3">
-                            <a selected="false" id="o5" class="btn btn-outline-primary service-option" href="javascript:__doPostBack('o5','')">
+                        <div class="btn-group mb-3 w-100 flex-c">
+                            <a selected="false" id="o5" class="btn btn-outline-primary service-option w-50" href="javascript:__doPostBack('o5','')">
                                 <strong>Tyre Check</strong><br>
                                 FREE
                             </a>
-                            <a selected="false" id="o6" class="btn btn-outline-primary service-option" href="javascript:__doPostBack('o6','')">
+                            <a selected="false" id="o6" class="btn btn-outline-primary service-option w-50" href="javascript:__doPostBack('o6','')">
                                 <strong>MOT</strong><br>
                                 £39
                             </a>
