@@ -1,4 +1,4 @@
-<section class="container-xl dept-details">
+<section class="container-xl dept-details px-4 px-sm-6 py-md-0 px-md-7 px-lg-0">
     <div class="row">
         <div class="col-12 col-lg-4 offset-lg-2">
             <div class="card">

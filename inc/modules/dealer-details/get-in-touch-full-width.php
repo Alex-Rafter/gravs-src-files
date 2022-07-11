@@ -1,11 +1,11 @@
-<section class="container-fluid px-0 overflow-hidden bg-primary in-touch-f-width py-7">
+<section class="container-fluid overflow-hidden bg-primary in-touch-f-width py-7 px-4 px-md-7 px-lg-6">
     <div class="row">
         <div class="col-12 col-lg-8 offset-lg-2">
             <div class="in-touch-f-width__titles text-white text-uppercase text-center">
                 <h2 class="text-white h1 mb-1">Get in Touch</h2>
                 <p class="mb-5">Well contact you as soon as possible</p>
             </div>
-            <div class="in-touch-f-width__form">
+            <div class="in-touch-f-width__form px-4 px-md-7 px-lg-6">
                 <form action="">
                     <div class="row mb-lg-3">
                         <div class="col-12 col-lg-4"> <select class="form-select">
@@ -42,3 +42,11 @@
         </div>
     </div>
 </section>
+<style>
+    @media only screen and (max-width: 1199px) {
+        .in-touch-f-width__form div[class*="col"] {
+        margin-bottom: 1rem;
+    }
+    }
+
+</style>
