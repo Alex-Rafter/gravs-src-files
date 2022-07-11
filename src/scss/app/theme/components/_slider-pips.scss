@@ -1,0 +1,108 @@
+#sliders {
+
+    .ui-slider {
+      position: relative;
+      text-align: left;
+      margin-top: 10px;
+      border: 1px solid $light;
+      height: 5px;
+      background: $light;
+      box-shadow: 0px;
+      border-radius: 0px;
+    
+      &-label {
+        display: none;
+      }
+    
+      &-horizontal {
+        height: 0.4em;
+      }
+    
+      &-horizontal &-range-min {
+        left: 0;
+      }
+    
+      &-horizontal &-range {
+        height: 100%;
+        top: 0;
+      }
+    
+      &-range {
+        background-position: 0 0;
+        border: 0 none;
+        display: block;
+        font-size: 0.7em;
+        position: absolute;
+        z-index: 1;
+        background: $primary;
+      }
+    
+      &-handle {
+   
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  // touch-action: none;
+  // user-select: none;
+  backface-visibility: hidden;
+  position: absolute;
+  background: $white;
+  cursor: pointer;
+  box-shadow: 0 0 0rem 1px $primary;
+  background-color: $brand-secondary;
+  border: 3px solid $white;
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 50%;
+  right: -6px !important;
+  top: -5.8px !important;
+  transition: background-color .15s ease-in-out;
+      }
+    }
+  }
+  
+  #CWPanel .ui-widget-content {
+    background: transparent;
+  }
+  
+  // To amend
+  
+  .pip-slider {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    &__label {
+      text-transform: uppercase;
+      font-weight: bold;
+      width: 100%;
+    }
+  
+    .ui-slider {
+      width: calc(80% - 0.5rem) !important;
+      margin-left: 0.5rem !important;
+    }
+  
+    &__value {
+      width: calc(20% - 1rem);
+      margin-left: 1rem;
+    }
+  
+    @media only screen and (min-width: 992px) {
+      
+    .ui-slider {
+      width: 100% !important;
+      margin-left: 0.5rem !important;
+    }
+  
+    &__value {
+      min-width: 80px;
+      margin-left: 1rem;
+    }
+    }
+    
+  }
+  
+  
+  
+  

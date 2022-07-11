@@ -1,0 +1,46 @@
+.home-page {
+  ul.slick-dots {
+    display: none;
+    @media only screen and (min-width: 1200px) {
+      display: flex;
+    }
+    flex-direction: column;
+    right: initial;
+    bottom: initial;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 1.5rem;
+  }
+
+  .slick-dots button {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    border-radius: 50%;
+  }
+
+  .slick-active > button {
+    opacity: 1;
+  }
+}
+
+  section.latest-stock .slick-dots {
+  flex-direction: row;
+  left: 3rem !important;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  top: 2px;
+  button {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    border-radius: 50%;
+    border: 1px solid $primary;
+    margin: 0 0.5rem;
+  }
+  .slick-active > button {
+    background-color: $primary;
+  }
+}

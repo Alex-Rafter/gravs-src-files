@@ -106,9 +106,25 @@
   }
 }
 
+
 @media only screen and (min-width: 1200px) {
-  .home-tiles {
+
+  .home-tiles,
+  .hero_banner__row {
     height: calc(70vh + 6px);
     min-height: 570px;
+  }
+    
+  .hero_banner__video img {
+    aspect-ratio: 1/0.7;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .hero_banner__video img {
+    aspect-ratio: 1/0.9;
+    height: auto;
   }
 }

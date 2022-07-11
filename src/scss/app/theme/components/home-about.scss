@@ -4,17 +4,18 @@
   // &__title {}
   // &__sub-title {}
   // &__paragraph {}
-  &__ctas {}
+  &__ctas {
+  }
   &__read-more {
     cursor: pointer;
     text-align: right;
   }
 
-  &__arrows-append {
+  &__arrows {
     position: absolute;
     height: 100%;
-    width: 12%;
-    left: 49%;
+    width: 100%;
+    left: 0;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -22,5 +23,54 @@
     align-items: center;
     font-size: 5rem;
     flex-wrap: wrap;
+  }
+
+  &__images {
+    ul.slick-dots {
+      flex-direction: row;
+      gap: 0.5rem;
+      display: flex;
+      width: 100%;
+      height: 50px;
+      top: initial;
+      right: initial;
+      bottom: 1rem;
+      left: 0;
+    }
+  }
+
+  &__socials {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: 200ms;
+  }
+
+  &__socials.fb:hover {
+    background-color: #efefef;
+    border: 1px solid grey;
+    border-radius: 3px;
+  }
+  &__fb-floating {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // border: 1px solid red;
+    > div {
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid grey;
+      border-radius: 3px;
+      background-color: #efefef;
+      min-width: 250px;
+      margin: 3rem;
+    }
+  
+  } 
+  .home-about__socials.fb:hover > .home-about__fb-floating > div,
+  home-about__fb-floating:hover > div {
+    display: flex;
   }
 }

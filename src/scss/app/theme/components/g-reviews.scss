@@ -7,10 +7,12 @@
     height: 30vh;
   }
 
-  img {
+  img:not(.g-reviews__logo-img) {
     width: 100%;
-    height: 30vh;
     object-fit: cover;
+    @media only screen and (max-width: 1199px) {
+      height: 30vh;
+    }
   }
 
   @media only screen and (min-width: 1200px) {

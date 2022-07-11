@@ -1,0 +1,33 @@
+.refine-search {
+    @media only screen and (max-width: 575px) {
+        &.offcanvas {
+            width: 100vw;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        &.offcanvas {
+            width: 550px;
+        }
+    }    
+    .form-select {
+        border: none;
+        border-bottom: 1px solid $white;
+    }
+
+    div[class*="col"]:nth-of-type(1) .form-select {
+        border-top: 1px solid $white;
+    }
+
+    .nav-pills .nav-link.active,
+    &__submit
+    {
+        color: $white;
+        // background-color: $black;
+        border: 1px solid $white;
+        text-transform: uppercase;
+        font-weight: light;
+        &:hover {
+            border: 1.2px solid $white;
+        }
+    }
+}

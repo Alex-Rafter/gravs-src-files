@@ -1,0 +1,9 @@
+.ucr-rep-example {
+    table {
+        @media only screen and (max-width: 1799px) {
+            td, th {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}

@@ -7,14 +7,28 @@
     }
 
     &__text {
-        @media only screen and (max-width: 1199px) {
-            font-size: calc(1.325rem + 0.9vw);
+        // fallback for clamp
+        font-size: calc(1.525rem + 3.3vw);
+        font-size: clamp(2.625rem, 14vw, 6rem);
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.5;
+        @media only screen and (min-width: 768px) and  (max-width: 991px) {
+            font-size: 1.75rem;
+        }
+        @media only screen and (min-width: 992px) and  (max-width: 1199px) {
+            font-size: 3rem;
+        }
+        @media only screen and (min-width : 1200px) {
+            // fallback for clamp          
+            font-size: 4rem;
+            font-size: clamp(2rem, 4vw, 4rem);
         }
     }
 
     &__card-img {
         position: relative;
-        filter: brightness(0.9);
+        filter: brightness(0.7);
     }
 
     &__card-img:hover {

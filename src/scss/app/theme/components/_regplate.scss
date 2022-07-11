@@ -1,35 +1,57 @@
+@use "sass:selector";
 // regplate
-.reg-plate {
-	position: relative;
-	border: $input-border-width solid $input-border-color;
+input.reg-plate {
+  position: relative;
+  border: $input-border-width solid $input-border-color;
+  max-width: 8em;
+  // padding-left: 2.1em;
+  // padding-top: .1em;
+  // padding-bottom: .1em;
+  font-family: "uknumberplateregular";
+  // font-size: 2em;
+  text-transform: uppercase;
+  // background-color: #eace00;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding-left: initial;
+  padding-right: 20px;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  font-size: 1.5em;
+  background-color: #fec20a;
+  border-color: $black;
+  color: $black;
 
-	max-width: 8em;
-	padding-left: 2.1em;
-	padding-top: .1em;
-	padding-bottom: .1em;
+  &--white {
+    background-color: #fff;
+  }
 
-	font-family: "uknumberplateregular";
-	font-size: 2em;
-	text-transform: uppercase;
-	
-	background-color: #eace00;
-	background-image: url("https://bluesky.sirv.com/Global/Assets/Images/Components/Numberplate/numberplate-bg.gif");
-	background-repeat: no-repeat;
-	background-size: contain;
+  &--transparent {
+    background-color: #0000;
+  }
 
-	&--white {
-		background-color: #fff;
-	}
+  &--inline {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2.6em;
+    font-size: 1em;
+    max-width: unset;
+  }
+}
 
-	&--transparent {
-		background-color: #0000;
-	}
+input.reg-plate::placeholder {
+  color: $black;
+  text-transform: lowercase !important;
+}
 
-	&--inline {
-		padding-top: .5em;
-		padding-bottom: .5em;
-		padding-left: 2.6em;
-		font-size: 1em;
-		max-width: unset;
-	}
+.reg-plate:focus {
+  background-color: #fdd55d;
+}
+
+.reg-plate + span {
+  width: 40px;
+  height: 40px;
+  background-color: $primary;
+  color: $white;
 }
