@@ -1,0 +1,21 @@
+@import "../../../xd";
+
+.tl-grid-button._vm_btn._vm_btn--success,
+.tl-grid-button._vm_btn._vm_btn--info,
+button.btn.btn-success,
+.btn.btn-info {
+  background-color: map-get($xd-colours, "brand-primary");
+  color:  map-get($xd-greys, "white");
+}
+
+.tl-grid-button._vm_btn._vm_btn--danger,
+.tl-grid-button._vm_btn._vm_btn--warning,
+.btn.btn-danger,
+.btn.btn-warning {
+  background-color: map-get($xd-colours, "brand-secondary");
+  color: map-get($xd-greys, "white");
+}
+.tl-grid-button._vm_btn._vm_btn--secondary,
+.btn.btn-secondary {
+  border: 1px solid map-get($xd-greys, "black");
+}

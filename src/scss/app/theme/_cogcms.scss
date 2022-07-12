@@ -31,9 +31,11 @@
       flex-direction: column;
       min-width: 0;
       word-wrap: break-word;
-      background-color:#fff;
+      background-color:$white;      
+      background-color:$primary;
       background-clip: border-box;
-      border: 1px solid rgba(0,0,0,.125);
+      // border: 1px solid rgba(0,0,0,.125);
+      border: none;
       border-radius: .25rem;
       
       &:first-of-type {
@@ -55,6 +57,7 @@
 
       /* Accordion -- header */
       .card-header {
+        position: relative;
         margin-bottom: -1px;
 
         padding: .75rem 1.25rem;
@@ -65,13 +68,39 @@
         &:first-child {
           border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
         }
+
+        .btn-link {
+          width: 100%;
+          color: $white;  
+          text-align: left;
+        }
       }
+
+      .card-header button:after {
+        content: '\f078';
+        font-family: "Font Awesome 6 Pro";
+        color:  $white;
+        position: absolute;
+        right: 0;
+        top : 0;
+        height: 100%;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        transition: 150ms;
+      }
+      .card-header button[aria-expanded="true"]:after {
+        transform: rotate(180deg);
+      }
+
 
       /* Accordion -- body */
       .card-body {
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         padding: 1.25rem;
+        background-color: $light;
       }
     }
   }
@@ -148,4 +177,9 @@
     font-size: 1.3rem;
     margin-bottom: .75rem;
   }
+}
+.umb-grid .tl-grid-call-to-action-box {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border: 1px solid #2c2b2a1f;
+  // border : 1px solid #09974529;
 }
