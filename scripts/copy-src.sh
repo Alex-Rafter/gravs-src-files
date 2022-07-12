@@ -14,7 +14,7 @@ find ../bak/inc -type f -name '*.php' ! -print0 | xargs -0 sed -i 's/.php/.aspx/
 find ../bak/inc -type f -name '*.php' ! -print0 | xargs -0 sed -i -e "s/file='\./file=\"/g"
 
 # Update paths to use webpack root path syntax
-find ../bak/scss -type f -name '*.scss' ! -print0 | xargs -0 sed -i 's/D:\/src-test\/node_modules\/bootstrap/~bootstrap/'
+find ../bak/scss -type f -name '*.scss' ! -print0 | xargs -0 sed -i 's/D:\/src-test\/node_modules\/bootstrap/D:/src-test/node_modules/bootstrap/'
 
 # Change file extensions
 find  ../bak/inc -type f -name '*.php' | sed 'p;s/php/aspx/' | xargs -d '\n' -n 2 mv

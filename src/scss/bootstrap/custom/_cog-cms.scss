@@ -44,6 +44,7 @@
 
 		@include media-breakpoint-up(md) {
 			flex-direction: row;
+			flex-wrap: wrap;
 		}
 
 		img {
@@ -52,7 +53,26 @@
 			@extend .rounded-start;
 		}
 	}
+
+	@include media-breakpoint-up(lg) {
+		&__img-left > .tl-grid-img-block {
+			padding-right: 1rem;
+		}
+		&__img-left > .tl-grid-img-block-aside {
+			padding-left: 1rem;
+		}
+	
+		&__img-right > .tl-grid-img-block {
+			padding-left: 1rem;
+		}
+		&__img-right > .tl-grid-img-block-aside {
+			padding-right: 1rem;
+		}
+	}
+
 }
+
+
 
 .tl-grid {
 	&-img {
