@@ -20,11 +20,12 @@
         <div class="container">
         <div class="row">
         <div class="col-12">
-            <div class="service-booking__titles p-5 pt-xl-7 text-primary flex-c flex-wrap text-center">
+            <div class="service-booking__titles p-5 pt-xl-6 pb-xl-0 text-primary flex-c flex-wrap text-center">
                 <h1 class="display-3 mb-0 text-primary w-100">Servicing at Gravells</h1>
-                <p style="max-width: 900px">
+                <p class="mb-0" style="max-width: 900px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac erat sagittis lectus volutpat iaculis. Curabitur convallis orci sit amet pharetra venenatis. Aliquam ac accumsan mauris. Fusce a nisi est. Proin porta mollis rhoncus. Praesent mattis eu est ac faucibus. Sed tempus velit vel libero bibendum, sit amet vehicula arcu iaculis.
                 </p>
+                <div class="w-100"><i class="display-2 fa-thin fa-car-wrench"></i></div>
             </div>
         </div>
     </div>
@@ -45,45 +46,51 @@
             <div class="container-fluid px-0">
                 <div class="wrapper mt-5 mb-10">
                     <a href="/" class="box a" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/book-a-service-wide.jpeg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">Book a Service</h1>                        
+                        <h1 class="title a display-3 text-white w-100">Book a Service</h1> 
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                         
                         <!-- <button class="btn btn-primary">Click </button> -->
                         </div>
 
                     </a>
                     <a href="/" class="box b" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/bodyshop-sq.jpeg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">Bodyshop</h1>                        
+                        <h1 class="title a display-3 text-white w-100">Bodyshop</h1>    
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                     
                         <!-- <button class="btn btn-brand-secondary">Click </button> -->
                         </div>
                     </a>
                     <a href="/" class="box c" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/kia-servicing-sq.jpg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">Kia</h1>                        
+                        <h1 class="title a display-3 text-white w-100">Kia</h1>  
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                        
                         <!-- <button class="btn btn-brand-secondary">Click </button> -->
                         </div>                       
                     </a>
                     <a href="/" class="box d" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/renault-servicing-sq.jpg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">Renault</h1>                        
+                        <h1 class="title a display-3 text-white w-100">Renault</h1>   
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                  
                         <!-- <button class="btn btn-brand-secondary">Click </button> -->
                         </div>                     
                     </a>
                     <a href="/" class="box e" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/dacia-servicing-sq.jpg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">Dacia</h1>                        
+                        <h1 class="title a display-3 text-white w-100">Dacia</h1>     
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                   
                         <!-- <button class="btn btn-brand-secondary">Click </button> -->
                         </div>                    
                     </a>
                     <a href="/" class="box f" >
-                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("http://localhost:3000/img/chunky-spots/new-cars.jpg");'></div>
+                        <div class="box-bg w-100 h-100 position-absolute" style='background-image: url("/img/servicing/landing/seat-servicing-wide.jpg");'></div>
                         <div class="flex-c-col gap-2 w-100 h-100 position-absolute" style="z-index: 2;">
-                        <h1 class="title a display-3 text-white w-100">SEAT</h1>                        
+                        <h1 class="title a display-3 text-white w-100">SEAT</h1>   
+                        <i class="box__icon h1 fa-thin fa-circle-chevron-right mt-n3"></i>                        
                         <!-- <button class="btn btn-brand-secondary">Click </button> -->
                         </div>                      
                     </a>
@@ -126,6 +133,13 @@
             .box:hover > .box-bg {
                 transform: scale(1.1);
                 filter: brightness(0.62) blur(0px);
+            }
+            .box__icon {
+                color : #fff;
+                transition: 450ms;
+            }
+            .box:hover .box__icon {
+              color: #E21F25;
             }
 
             .box::after {
