@@ -2,9 +2,9 @@
     <div class="row">
         <div class="col-12">
             <div class="service-booking__titles p-5 p-xl-7 text-white">
-                <h1 class="display-3 mb-0 text-white">Gravells Service Boooking</h1>
-                <p>
-                Fill in the quick form to book a service or MOT. We'll be in touch within 24 hours to confirm your requirements, preferred date and to confirm your appointment!
+                <h1 class="display-3 mb-0 text-white">Gravells CMS Page</h1>
+                <p style="max-width: 750px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac erat sagittis lectus volutpat iaculis. Curabitur convallis orci sit amet pharetra venenatis. Aliquam ac accumsan mauris.
                 </p>
             </div>
         </div>
@@ -12,7 +12,10 @@
 </section>
 <style>
     .service-booking__hero {
-        background-image: url('/img/servicing/landing/book-a-service-sq.jpg');
+        /* background-image: url('/img/servicing/landing/book-a-service-sq.jpg'); */
+        background-image: url('/img/cms-page/kia/kia-cms-page-hero-sq-3.jpg');
+        background-image: url('/img/cms-page/renault/renault-cms-hero-sq-3.jpg');
+        background-image: url('/img/cms-page/stock/stock-cms-hero-sq-5.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
@@ -20,7 +23,10 @@
 
     @media only screen and (min-width: 576px) {
         .service-booking__hero {
-            background-image: url('/img/servicing/landing/book-a-service-wide-thin.jpeg');
+            /* background-image: url('/img/servicing/landing/book-a-service-wide-thin.jpeg'); */
+            background-image: url('/img/cms-page/kia/kia-cms-page-hero-wide-3.jpg');          
+            background-image: url('/img/cms-page/renault/renault-cms-hero-wide-3.jpg');   
+            background-image: url('/img/cms-page/stock/stock-cms-hero-wide-5.jpeg');    
         }
     }
 
