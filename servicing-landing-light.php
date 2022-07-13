@@ -102,12 +102,129 @@
             .wrapper {
                 display: grid;
                 grid-gap: 0.2rem;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
                 /* background-color: #fff; */
                 color: #444;
                 width: 100%;
                 height: 120vh;
+            }
+
+            
+            .a {
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            .b {
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            .c {
+                grid-column: 1;
+                grid-row: 3;
+            }
+
+            .d {
+                grid-column: 1;
+                grid-row: 4;
+            }
+
+            .e {
+                grid-column: 1;
+                grid-row: 5;
+            }
+
+            .f {
+                grid-column: 1;
+                grid-row: 6;
+            }
+
+            @media only screen and (min-width: 768px) {
+                .wrapper {
+                display: grid;
+                grid-gap: 0.2rem;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                color: #444;
+                width: 100%;
+                height: 120vh;
+            }
+
+
+            .a {
+                grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+            }
+
+            .b {
+                grid-column: 3 / span 3;
+    grid-row: 1 / span 2;
+            }
+
+            .c {
+                grid-column: 1 /span 2;
+    grid-row: 3 / span 2;
+            }
+
+            .d {
+                grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+            }
+
+            .e {
+                grid-column: 3 / span 2;
+    grid-row: 5 / span 2;
+            }
+
+            .f {
+                grid-column: 1 / span 2;
+    grid-row: 5 / span 2;
+            }
+
+            }
+
+            @media only screen and (min-width: 1200px) {
+                .wrapper {
+                display: grid;
+                grid-gap: 0.2rem;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                color: #444;
+                width: 100%;
+                height: 120vh;
+            }
+
+            .a {
+                grid-column: 1 / span 3;
+                grid-row: 1 / span 2;
+            }
+
+            .b {
+                grid-column: 4;
+                grid-row: 1 / span 4;
+            }
+
+            .c {
+                grid-column: 1;
+                grid-row: 3 / span 2;
+            }
+
+            .d {
+                grid-column: 2 / span 2;
+                grid-row: 3 / span 2;
+            }
+
+            .e {
+                grid-column: 3 / span 2;
+                grid-row: 5 / span 2;
+            }
+
+            .f {
+                grid-column: 1 / span 2;
+                grid-row: 5 / span 2;
+            }
             }
 
             .box {
@@ -159,35 +276,6 @@
                 margin-bottom: 0;
             }
 
-            .a {
-                grid-column: 1 / span 3;
-                grid-row: 1 / span 2;
-            }
-
-            .b {
-                grid-column: 4;
-                grid-row: 1 / span 4;
-            }
-
-            .c {
-                grid-column: 1;
-                grid-row: 3 / span 2;
-            }
-
-            .d {
-                grid-column: 2 / span 2;
-                grid-row: 3 / span 2;
-            }
-
-            .e {
-                grid-column: 3 / span 2;
-                grid-row: 5 / span 2;
-            }
-
-            .f {
-                grid-column: 1 / span 2;
-                grid-row: 5 / span 2;
-            }
         </style>
 <?php include('./inc/modules/service-booking/s1-cms-section.php'); ?>
 <?php include('./inc/modules/home/get-in-touch.php'); ?>
