@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,23 @@
     <title>Document</title>
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
+
 <body>
-<?php include('./inc/components/header.php'); ?>
+    <?php include('/src-test/inc/components/header.php'); ?>
+    <main class="main overflow-hidden bg-light" id="main">
 
-<main class="main overflow-hidden bg-light" id="main">
-    <?php include('./inc/modules/cms-pages/cms-page-hero.php'); ?>
-    <?php include('./inc/modules/service-booking/s1-cms-section.php'); ?>
-</main>
+        <!-- CONTENT AREA -->
+        <?php $heroTitleCMS = "New to Motability"; $heroImageCMS = "/img/motability/motab-hero-1.png"; ?>
+        <?php include('/src-test/inc/modules/cms-pages/cms-page-hero.php'); ?>
+        <?php include('/src-test/inc/modules/service-booking/s1-cms-section.php'); ?>
+        <!-- CONTENT AREA -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         $('.hamburger').click(() => $('.fat-nav').toggleClass('active'));
-    
+
         function expanderFunc() {
             console.log('loaded')
             if (window.innerWidth < 1200) {
@@ -33,10 +38,13 @@
                 });
             }
         }
-    
+
         window.onload = () => expanderFunc();
         window.onresize = () => expanderFunc();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

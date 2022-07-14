@@ -1,57 +1,48 @@
-<section class="container-fluid px-0 overflow-hidden service-booking__hero">
-    <div class="row">
+<section class="container-fluid px-0 overflow-hidden page-hero__hero position-relative"
+    style="display:inline-grid">
+
+    <div class="row" style=" z-index: 1;">
         <div class="col-12">
-            <div class="service-booking__titles p-5 p-xl-7 text-white">
-                <h1 class="display-3 mb-0 text-white">Gravells CMS Page</h1>
+            <div class="page-hero__titles p-5 p-xl-7 text-white">
+                <h1 class="display-3 mb-0 text-white"><?= $heroTitleCMS ?></h1>
                 <p style="max-width: 750px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac erat sagittis lectus volutpat iaculis. Curabitur convallis orci sit amet pharetra venenatis. Aliquam ac accumsan mauris.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac erat sagittis lectus volutpat
+                    iaculis. Curabitur convallis orci sit amet pharetra venenatis. Aliquam ac accumsan mauris.
                 </p>
             </div>
         </div>
     </div>
+    <div class="page-hero__bg-img w-100 h-100 position-absolute"
+        style='background-image: url("<?= $heroImageCMS ?>"); z-index: 0;'></div>
 </section>
 <style>
-    .service-booking__hero {
-        /* background-image: url('/img/servicing/landing/book-a-service-sq.jpg'); */
-        background-image: url('/img/cms-page/kia/kia-cms-page-hero-sq-3.jpg');
-        background-image: url('/img/cms-page/renault/renault-cms-hero-sq-3.jpg');
-        background-image: url('/img/cms-page/stock/stock-cms-hero-sq-5.jpeg');
+    .page-hero__bg-img {
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
-    }
-
-    @media only screen and (min-width: 576px) {
-        .service-booking__hero {
-            /* background-image: url('/img/servicing/landing/book-a-service-wide-thin.jpeg'); */
-            background-image: url('/img/cms-page/kia/kia-cms-page-hero-wide-3.jpg');          
-            background-image: url('/img/cms-page/renault/renault-cms-hero-wide-3.jpg');   
-            background-image: url('/img/cms-page/stock/stock-cms-hero-wide-5.jpeg');    
-        }
+        filter: brightness(0.7);
     }
 
     @media only screen and (min-width: 1450px) {
-        .service-booking__hero {
-            background-position-y: -50px;
+        .page-hero__bg-img {
+            background-position: center;
         }
     }
 
     @media only screen and (min-width: 1600px) {
-        .service-booking__hero {
-            background-position-y: -80px;
+        .page-hero__bg-img {
+            background-position: center;
         }
     }
 
-
-
     @media only screen and (max-width: 575px) {
-        .service-booking__titles h1 {
+        .page-hero__titles h1 {
             font-size: 2rem;
         }
     }
 
     @media only screen and (min-width: 576px) {
-        .service-booking__img {
+        .page-hero__img {
         aspect-ratio: 2.5/1;
         object-fit: cover;
     }

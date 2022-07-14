@@ -14,12 +14,12 @@
       </div>
       <div class="col-12 col-lg-7">
         <div class="home-locations__repeater py-5 py-md-4 p-xl-6 gap-4 h-100 w-100">
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
-          <?php include('./inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
+          <?php include('/src-test/inc/modules/home/card/card-location.php'); ?>
         </div>
       </div>
     </div>

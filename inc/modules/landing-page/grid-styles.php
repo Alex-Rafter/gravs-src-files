@@ -8,32 +8,32 @@
     height: 120vh;
 }
 
-.a {
+.landing-grid__item:nth-of-type(1) {
     grid-column: 1;
     grid-row: 1;
 }
 
-.b {
+.landing-grid__item:nth-of-type(2) {
     grid-column: 1;
     grid-row: 2;
 }
 
-.c {
+.landing-grid__item:nth-of-type(3) {
     grid-column: 1;
     grid-row: 3;
 }
 
-.d {
+.landing-grid__item:nth-of-type(4) {
     grid-column: 1;
     grid-row: 4;
 }
 
-.e {
+.landing-grid__item:nth-of-type(5) {
     grid-column: 1;
     grid-row: 5;
 }
 
-.f {
+.landing-grid__item:nth-of-type(6) {
     grid-column: 1;
     grid-row: 6;
 }
@@ -44,35 +44,37 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .a {
+    .landing-grid__item:nth-of-type(1) {
         grid-column: 1 / span 2;
         grid-row: 1 / span 2;
     }
 
-    .b {
+    .landing-grid__item:nth-of-type(2) {
         grid-column: 3 / span 3;
         grid-row: 1 / span 2;
     }
 
-    .c {
+    .landing-grid__item:nth-of-type(3) {
         grid-column: 1 /span 2;
         grid-row: 3 / span 2;
     }
 
-    .d {
+    .landing-grid__item:nth-of-type(4) {
         grid-column: 3 / span 2;
         grid-row: 3 / span 2;
     }
 
-    .e {
+    .landing-grid__item:nth-of-type(5) {
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 2;
+    }
+
+    .landing-grid__item:nth-of-type(6) {
         grid-column: 3 / span 2;
         grid-row: 5 / span 2;
     }
 
-    .f {
-        grid-column: 1 / span 2;
-        grid-row: 5 / span 2;
-    }
+
 
 }
 
@@ -82,32 +84,32 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .landing-grid--broken .a {
+    .landing-grid--broken .landing-grid__item:nth-of-type(1) {
         grid-column: 1 / span 3;
         grid-row: 1 / span 2;
     }
 
-    .landing-grid--broken .b {
+    .landing-grid--broken .landing-grid__item:nth-of-type(2) {
         grid-column: 4;
         grid-row: 1 / span 4;
     }
 
-    .landing-grid--broken .c {
+    .landing-grid--broken .landing-grid__item:nth-of-type(3) {
         grid-column: 1;
         grid-row: 3 / span 2;
     }
 
-    .landing-grid--broken .d {
+    .landing-grid--broken .landing-grid__item:nth-of-type(4) {
         grid-column: 2 / span 2;
         grid-row: 3 / span 2;
     }
 
-    .landing-grid--broken .e {
+    .landing-grid--broken .landing-grid__item:nth-of-type(5) {
         grid-column: 3 / span 2;
         grid-row: 5 / span 2;
     }
 
-    .landing-grid--broken .f {
+    .landing-grid--broken .landing-grid__item:nth-of-type(6) {
         grid-column: 1 / span 2;
         grid-row: 5 / span 2;
     }

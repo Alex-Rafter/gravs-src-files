@@ -10,30 +10,18 @@
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
 <body>
-<?php include('./inc/components/header.php'); ?>
+<?php include('/src-test/inc/components/header.php'); ?>
 
-<main class="main overflow-hidden" id="main">
-<?php include('./inc/modules/used-vehicles/ucd-hero.php'); ?>
-<?php include('./inc/modules/used-vehicles/ucd-spec.php'); ?>
-<?php include('./inc/modules/used-vehicles/similar-stock.php'); ?>
-<?php include('./inc/modules/shared/get-in-touch-map.php'); ?>
-    <!-- UCD HERO : START -->
-<section class="container-xxl">
-    <div class="row">
-        <div class="col-12 col-lg-6">
-
-        </div>
-        <div class="col-12 col-lg-6">
-            
-        </div>
-    </div>
-</section>
-<!-- UCD HERO : END -->
+<main class="main overflow-hidden bg-light" id="main">
+    
+    <?php include('/src-test/inc/modules/service-booking/hero.php'); ?>
+    <?php include('/src-test/inc/modules/service-booking/s1-form.php'); ?>
+    <?php include('/src-test/inc/modules/service-booking/s1-cms-section.php'); ?>
+    <?php include('/src-test/inc/modules/shared/get-in-touch-map.php'); ?>
 </main>
-<?php include('./inc/modules/used-vehicles/get-in-touch-icons-ucd.php'); ?>
-<?php include('./inc/components/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script>
         $('.hamburger').click(() => $('.fat-nav').toggleClass('active'));
     

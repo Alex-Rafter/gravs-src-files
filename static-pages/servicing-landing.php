@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include('./inc/components/header.php'); ?>
+    <?php include('/src-test/inc/components/header.php'); ?>
 
     <main class="main overflow-hidden bg-light" id="main">
 
@@ -167,7 +167,7 @@
         </style>
 
     </main>
-    <?php include('./inc/components/footer.php'); ?>
+    <?php include('/src-test/inc/components/footer.php'); ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 

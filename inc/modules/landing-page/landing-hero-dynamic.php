@@ -10,7 +10,7 @@
                         mauris. Fusce a nisi est. Proin porta mollis rhoncus. Praesent mattis eu est ac faucibus. Sed
                         tempus velit vel libero bibendum, sit amet vehicula arcu iaculis.
                     </p>
-                    <div class="w-100"><i class="display-2 fa-thin fa-car-wrench"></i></div>
+                    <div class="w-100"><i class="display-2 fa-thin <?=$landingHeroIcon?>"></i></div>
                 </div>
             </div>
         </div>

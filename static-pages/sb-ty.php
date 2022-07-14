@@ -10,14 +10,13 @@
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
 <body>
-<?php include('./inc/components/header.php'); ?>
+<?php include('/src-test/inc/components/header.php'); ?>
 
 <main class="main overflow-hidden bg-light" id="main">
     
-    <?php include('./inc/modules/service-booking/hero.php'); ?>
-    <?php include('./inc/modules/service-booking/s1-form.php'); ?>
-    <?php include('./inc/modules/service-booking/s1-cms-section.php'); ?>
-    <?php include('./inc/modules/shared/get-in-touch-map.php'); ?>
+    <?php include('/src-test/inc/modules/service-booking/hero.php'); ?>
+    <?php include('/src-test/inc/modules/service-booking/ty-main.php'); ?>
+    <?php include('/src-test/inc/modules/home/home-locations.php'); ?>
 </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

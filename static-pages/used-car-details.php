@@ -10,19 +10,30 @@
     <script src="https://unpkg.com/petite-vue" defer init></script>
 </head>
 <body>
-<?php include('./inc/components/header.php'); ?>
+<?php include('/src-test/inc/components/header.php'); ?>
 
 <main class="main overflow-hidden" id="main">
-    
-    <?php include('./inc/modules/dealer-details/hero.php'); ?>
-    <?php include('./inc/modules/shared/get-in-touch-map.php'); ?>
-    <?php include('./inc/modules/dealer-details/department-details.php'); ?>
-    <?php include('./inc/modules/dealer-details/get-in-touch-full-width.php'); ?>
-    <?php include('./inc/modules/dealer-details/three-sixty-view.php'); ?>
-</main>
-<?php include('./inc/components/footer.php'); ?>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<?php include('/src-test/inc/modules/used-vehicles/ucd-hero.php'); ?>
+<?php include('/src-test/inc/modules/used-vehicles/ucd-spec.php'); ?>
+<?php include('/src-test/inc/modules/used-vehicles/similar-stock.php'); ?>
+<?php include('/src-test/inc/modules/shared/get-in-touch-map.php'); ?>
+    <!-- UCD HERO : START -->
+<section class="container-xxl">
+    <div class="row">
+        <div class="col-12 col-lg-6">
 
+        </div>
+        <div class="col-12 col-lg-6">
+            
+        </div>
+    </div>
+</section>
+<!-- UCD HERO : END -->
+</main>
+<?php include('/src-test/inc/modules/used-vehicles/get-in-touch-icons-ucd.php'); ?>
+<?php include('/src-test/inc/components/footer.php'); ?>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         $('.hamburger').click(() => $('.fat-nav').toggleClass('active'));
     

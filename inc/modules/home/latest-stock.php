@@ -15,13 +15,13 @@
       <div class="w-100 h-100">
         <div class="row">
           <div class="col-12 col-md-6 col-xl-4">
-            <?php include('./inc/modules/home/card/card-vehicle.php'); ?>
+            <?php include('/src-test/inc/modules/home/card/card-vehicle.php'); ?>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
-            <?php include('./inc/modules/home/card/card-vehicle.php'); ?>
+            <?php include('/src-test/inc/modules/home/card/card-vehicle.php'); ?>
           </div>
           <div class="col-12 col-lg-4  d-none d-xl-block">
-            <?php include('./inc/modules/home/card/card-vehicle.php'); ?>
+            <?php include('/src-test/inc/modules/home/card/card-vehicle.php'); ?>
           </div>
         </div>
       </div>

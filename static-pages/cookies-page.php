@@ -12,19 +12,18 @@
 </head>
 
 <body>
-    <?php include('./inc/components/header.php'); ?>
-
+    <?php include('/src-test/inc/components/header.php'); ?>
     <main class="main overflow-hidden bg-light" id="main">
-        <?php include('./inc/modules/landing-page/landing-hero.php'); ?>
-        <?php include('./inc/modules/landing-page/equal-grid.php'); ?>
-    
-<?php include('./inc/modules/service-booking/s1-cms-section.php'); ?>
-<?php include('./inc/modules/home/get-in-touch.php'); ?>
+
+        <!-- CONTENT AREA -->
+        <?php $heroTitleCMS = "Cookies Settings"; $heroImageCMS = "/img/about-us/our-story.jpg"; ?>
+        <?php include('/src-test/inc/modules/cms-pages/cms-page-hero.php'); ?>
+        <?php include('/src-test/inc/modules/service-booking/s1-cms-section.php'); ?>
+        <!-- CONTENT AREA -->
+
     </main>
-    <?php include('./inc/components/footer.php'); ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
     <script>
         $('.hamburger').click(() => $('.fat-nav').toggleClass('active'));
 

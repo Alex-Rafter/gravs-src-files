@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include('./inc/components/header.php'); ?>
+    <?php include('/src-test/inc/components/header.php'); ?>
 
     <main class="main overflow-hidden bg-light" id="main">
 
@@ -277,10 +277,10 @@
             }
 
         </style>
-<?php include('./inc/modules/service-booking/s1-cms-section.php'); ?>
-<?php include('./inc/modules/home/get-in-touch.php'); ?>
+<?php include('/src-test/inc/modules/service-booking/s1-cms-section.php'); ?>
+<?php include('/src-test/inc/modules/home/get-in-touch.php'); ?>
     </main>
-    <?php include('./inc/components/footer.php'); ?>
+    <?php include('/src-test/inc/components/footer.php'); ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 

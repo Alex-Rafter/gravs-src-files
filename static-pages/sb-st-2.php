@@ -12,18 +12,13 @@
 <body>
 <?php include('/src-test/inc/components/header.php'); ?>
 
-<main class="main overflow-hidden" id="main">
+<main class="main overflow-hidden bg-light" id="main">
     
-    <?php include('/src-test/inc/modules/home/home-hero-v3.php'); ?>
-    <?php include('/src-test/inc/modules/home/chunky-spotlights.php'); ?>
-    <?php include('/src-test/inc/modules/home/home-about.php'); ?>
-    <?php include('/src-test/inc/modules/home/home-g-reviews.php'); ?>
-    <?php include('/src-test/inc/modules/home/latest-stock.php'); ?>
-    <?php include('/src-test/inc/modules/home/home-locations.php'); ?>
-
+    <?php include('/src-test/inc/modules/service-booking/hero.php'); ?>
+    <?php include('/src-test/inc/modules/service-booking/s2-form.php'); ?>
+    <?php include('/src-test/inc/modules/shared/get-in-touch-map.php'); ?>
 </main>
-<?php include('/src-test/inc/modules/home/get-in-touch.php'); ?>
-<?php include('/src-test/inc/components/footer.php'); ?>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script>
