@@ -4,9 +4,17 @@
   gap: 8.75rem;
 }
 
-.vertically-gapped--sm {
-  gap: 2rem;
+$sm-gap : 4rem;
+$sm-gap-half : $sm-gap / 2;
+.vertically-gapped.vertically-gapped--sm {
+  gap: $sm-gap-half ;
+  .close-vertical-gap {
+    transform: translateY(-$sm-gap-half);
+  }
   @media only screen and (min-width: 1200px) {
-    gap: 4rem;
+    gap: $sm-gap;
+    .close-vertical-gap {
+      transform: translateY(-$sm-gap);
+    }
   }
 }

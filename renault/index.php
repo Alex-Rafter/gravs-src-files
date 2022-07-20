@@ -14,8 +14,9 @@
 
 <main class="main overflow-hidden" id="main">
     
-    <?php include('/src-test/inc/modules/home/home-hero-v3.php'); ?>
-    <?php include('/src-test/inc/modules/home/chunky-spotlights.php'); ?>
+    <?php include('/src-test/inc/modules/home/home-hero-franchise.php'); ?>
+    <?php include('/src-test/inc/modules/home/chunky-spotlights-franchise.php'); ?>
+    <?php include('/src-test/inc/modules/franchises/new-cars-summary-grid.php'); ?>
     <?php include('/src-test/inc/modules/home/home-about.php'); ?>
     <?php include('/src-test/inc/modules/home/home-g-reviews.php'); ?>
     <?php include('/src-test/inc/modules/home/latest-stock.php'); ?>

@@ -144,7 +144,7 @@
   }
 }
 
-$z-index: 1, 2, 3, 4, 5, 6, 7, 8, 9;
+$z-index: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9;
 
 @each $i in $z-index {
   .z-index-#{$i} {
@@ -160,7 +160,11 @@ $flex-grow: 2, 3, 4, 5, 6, 7, 8, 9;
   }
 }
 
-.checkbox-wrap:after {
+.form-select-wrap {
+  position: relative;
+}
+
+.form-select-wrap:after {
   font-family: "Font Awesome 6 Pro";
   content: '\f107';
   position: absolute;
@@ -176,6 +180,6 @@ $flex-grow: 2, 3, 4, 5, 6, 7, 8, 9;
   transition: 150ms;
 }
 
-.checkbox-wrap.rotate:after {
+.form-select-wrap.rotate:after {
   transform: rotate(180deg);
 }

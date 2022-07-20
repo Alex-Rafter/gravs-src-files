@@ -1,0 +1,14 @@
+.get-in-touch-icons {
+  position: fixed;
+  bottom: 0rem;
+  z-index: 10000;
+}
+
+.get-in-touch-icons--ucd {
+  position: static;
+  bottom: 0rem;
+  z-index: 10000;
+  @media only screen and (min-width: 1200px) {
+    position: fixed;
+  }
+}

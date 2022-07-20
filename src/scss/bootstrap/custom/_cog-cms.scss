@@ -104,7 +104,12 @@
 }
 
 .advanced__textarea{
+	margin-bottom: 2.5rem;
 	table {
 		@extend .table;
 	}
+}
+
+ul.image-gallery__ul .slick-list .slick-slide {
+    margin: 0 0.5rem;
 }
