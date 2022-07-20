@@ -13,7 +13,7 @@
                     </div>
                     <!-- Video : END -->
                     <!-- Hero Overlay : START -->
-                    <a class="hero_banner__overlay hero_banner__overlay--franchise flex-c flex-wrap h-100 w-100 text-decoration-none"
+                    <a class="hero_banner__overlay hero_banner__overlay--franchise flex-c flex-wrap w-100 text-decoration-none"
                         href="/super-search/" title="SEARCH USED CARS">
                         <h2 class="text-center text-uppercase text-white">KIA NEW CARS</h2>
                     </a>
@@ -100,6 +100,17 @@ home-tiles--franchise__tile {
     height: 25%;
 }
 
+.hero_banner__video--franchise .hero_banner__overlay {
+    height: 50vh;
+}
+
+
+.hero_banner__video--franchise video {
+        aspect-ratio: 2/1.2;
+    width: 100% !important;
+    margin-top: -19%;
+    }
+
         /* .hero_banner--franchise .hero_banner__video--franchise
      {
     min-height: initial;
@@ -110,6 +121,10 @@ home-tiles--franchise__tile {
     min-height: 25vh;
 
 } */
+
+
     }
+
+
 
 </style>
