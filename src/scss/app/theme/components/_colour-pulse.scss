@@ -1,0 +1,21 @@
+.colour-pulse {
+  animation-name: color;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease;
+}
+
+@keyframes color {
+  0% {
+    color: #595959;
+  }
+
+  50% {
+    color: #099745;
+  }
+
+  100% {
+    color: #595959;
+  }
+}

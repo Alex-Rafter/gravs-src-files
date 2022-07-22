@@ -1,0 +1,91 @@
+.home-tiles--franchise {
+  height: 10vh;
+}
+
+home-tiles--franchise__tile {
+  height: 100%;
+}
+
+.hero_banner--franchise .hero_banner__img--franchise {
+  aspect-ratio: 2.5/1;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+  .hero_banner__row--franchise {
+    min-height: initial;
+    height: 100vh;
+  }
+
+  .hero_banner__major {
+    height: 25%;
+  }
+
+  .hero_banner__minor {
+    height: 75%;
+  }
+  /* .home-tiles-franchise {
+              height: 60vh;
+          } */
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero_banner__row--franchise {
+    min-height: initial;
+    height: calc(100vh - 230px);
+  }
+
+  .hero_banner--franchise .hero_banner__overlay--franchise {
+    height: calc(100vh - 30% - 230px) !important;
+  }
+
+  .hero_banner--franchise
+    .hero_banner__video--franchise
+    + .hero_banner__overlay--franchise {
+    height: calc(100vh - 17% - 230px) !important;
+  }
+
+  .hero_banner__major {
+    height: 70%;
+  }
+
+  .hero_banner__minor {
+    height: 30%;
+  }
+}
+
+.hero_banner--franchise .hero_banner__img--franchise {
+  aspect-ratio: 1.5/1;
+}
+
+@media only screen and (min-width: 576px) {
+  .hero_banner--franchise .hero_banner__img--franchise {
+    aspect-ratio: 1.8/1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero_banner--franchise .hero_banner__img--franchise {
+    aspect-ratio: 2.5/1;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .hero_banner--franchise .hero_banner__img--franchise {
+    aspect-ratio: 4/1;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero_banner--franchise .hero_banner__img--franchise {
+    aspect-ratio: 2.5/1;
+  }
+}
+
+@media (min-aspect-ratio: 3/2) {
+  .hero_banner--franchise .hero_banner__img--franchise {
+    aspect-ratio: 3/1 !important;
+  }
+}
