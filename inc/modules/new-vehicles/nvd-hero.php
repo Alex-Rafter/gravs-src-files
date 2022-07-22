@@ -4,8 +4,8 @@
         <!-- Col One  -->
         <div class="col-12 col-lg-6 px-0 px-xl-4">
             <div class="home-image">
-                <img class="resp-img pb-0" src="/img/home-about/home-about.jpg" alt="home about"
-                    style="aspect-ratio: 6/4;padding: 2rem 2rem 2rem 0;object-fit: cover;">
+                <img class="resp-img p-5 px-0 pb-md-0 ps-md-0" src="/img/nvd/placeholder.jpg" alt="home about"
+                    style="object-fit: cover;">
                 <div
                     class="home-image-actions arrows-append-mob flex-c justify-content-around justify-content-xl-start mt-4 gap-3 text-uppercase position-relative pe-5 pb-5">
                     <span class="col-md-4">

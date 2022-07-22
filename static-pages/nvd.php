@@ -19,10 +19,10 @@
     <?php include('/src-test/inc/modules/new-vehicles/nvd-hero.php'); ?>
     <!-- Version Selector -->
     <!-- Version Selector and Retail Offers Mostly The Same -->
-
+    <?php include('/src-test/inc/modules/new-vehicles/nvd-version-select.php'); ?>
     <!-- CW Plugin- Just the Normal Plugin -->
     <!-- Retail Offers -->
-
+    <?php include('/src-test/inc/modules/new-vehicles/nvd-version-select.php'); ?>
     <!-- Full Width and Spots -->
     <!-- Spots the Same - With Full Width Above -->
 
